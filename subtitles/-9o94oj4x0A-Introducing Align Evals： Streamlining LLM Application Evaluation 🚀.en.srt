@@ -1,0 +1,1260 @@
+1
+00:00:00,560 --> 00:00:05,920
+When you're building LLM applications,
+
+2
+00:00:03,120 --> 00:00:08,559
+creating evaluators to score how well
+
+3
+00:00:05,920 --> 00:00:11,759
+your application is doing is a crucial
+
+4
+00:00:08,559 --> 00:00:13,360
+but often hard part of the job. A common
+
+5
+00:00:11,759 --> 00:00:15,200
+way to create these evaluators is to
+
+6
+00:00:13,360 --> 00:00:17,279
+create a prompt and use an LLM as a
+
+7
+00:00:15,200 --> 00:00:20,080
+judge to score the outputs. That
+
+8
+00:00:17,279 --> 00:00:21,760
+involves a bunch of prompt tweaking and
+
+9
+00:00:20,080 --> 00:00:24,000
+trying to guess how it might influence
+
+10
+00:00:21,760 --> 00:00:26,000
+the the scores that it's generating.
+
+11
+00:00:24,000 --> 00:00:29,199
+Today we're excited to launch a new
+
+12
+00:00:26,000 --> 00:00:32,480
+feature called align eval where you can
+
+13
+00:00:29,199 --> 00:00:34,880
+create an evaluator by clicking here and
+
+14
+00:00:32,480 --> 00:00:36,160
+then creating it by just labeling data.
+
+15
+00:00:34,880 --> 00:00:37,600
+And so the way that it works and we'll
+
+16
+00:00:36,160 --> 00:00:39,760
+go over this in more detail is you just
+
+17
+00:00:37,600 --> 00:00:41,840
+select experiments to review. You go
+
+18
+00:00:39,760 --> 00:00:43,600
+through and score them and then you can
+
+19
+00:00:41,840 --> 00:00:45,360
+quickly iterate against those scores and
+
+20
+00:00:43,600 --> 00:00:48,320
+be super confident about how your
+
+21
+00:00:45,360 --> 00:00:50,399
+evaluator is performing. Hello everyone.
+
+22
+00:00:48,320 --> 00:00:52,079
+My name is Harrison, co-founder and CEO
+
+23
+00:00:50,399 --> 00:00:53,360
+of Langchain. And today I want to talk
+
+24
+00:00:52,079 --> 00:00:55,840
+about this new feature that we're
+
+25
+00:00:53,360 --> 00:00:57,760
+launching in Langmith. So Langmith is
+
+26
+00:00:55,840 --> 00:01:00,079
+our platform for observing and
+
+27
+00:00:57,760 --> 00:01:02,559
+evaluating LLM applications. Works with
+
+28
+00:01:00,079 --> 00:01:04,720
+or without Langchain. And one of the
+
+29
+00:01:02,559 --> 00:01:07,920
+things that's in there is a really neat
+
+30
+00:01:04,720 --> 00:01:11,119
+flow for evaluating your agents or other
+
+31
+00:01:07,920 --> 00:01:13,520
+AI applications. One part of that is
+
+32
+00:01:11,119 --> 00:01:16,320
+evaluators. And evaluators are
+
+33
+00:01:13,520 --> 00:01:18,720
+oftentimes code snippets or LLM as a
+
+34
+00:01:16,320 --> 00:01:20,560
+judge techniques where you use a prompt
+
+35
+00:01:18,720 --> 00:01:22,560
+to score the output of your original
+
+36
+00:01:20,560 --> 00:01:25,759
+agent. And so we're introducing a new
+
+37
+00:01:22,560 --> 00:01:27,360
+way today to create and align these LLM
+
+38
+00:01:25,759 --> 00:01:29,439
+as a judge evaluators, which is often
+
+39
+00:01:27,360 --> 00:01:32,240
+one of the trickiest parts of building a
+
+40
+00:01:29,439 --> 00:01:35,200
+good eval flow. How this works is real
+
+41
+00:01:32,240 --> 00:01:37,200
+simple. First, we're going to collect
+
+42
+00:01:35,200 --> 00:01:38,799
+representative sample runs from our
+
+43
+00:01:37,200 --> 00:01:41,119
+application.
+
+44
+00:01:38,799 --> 00:01:44,079
+Next, we're going to go through and have
+
+45
+00:01:41,119 --> 00:01:46,640
+a human expert label these runs. And
+
+46
+00:01:44,079 --> 00:01:48,799
+then finally, we are going to iterate on
+
+47
+00:01:46,640 --> 00:01:51,439
+a prompt until it aligns with the human
+
+48
+00:01:48,799 --> 00:01:54,479
+expert. And by collecting these human
+
+49
+00:01:51,439 --> 00:01:57,680
+expert labels, we can easily track how
+
+50
+00:01:54,479 --> 00:01:59,520
+well aligned it is. So, let's see this
+
+51
+00:01:57,680 --> 00:02:01,759
+in action.
+
+52
+00:01:59,520 --> 00:02:05,119
+So, here I can see an example task that
+
+53
+00:02:01,759 --> 00:02:07,360
+I have. It's generating recipes for a
+
+54
+00:02:05,119 --> 00:02:10,479
+user query. And I can see that I have a
+
+55
+00:02:07,360 --> 00:02:13,120
+data set. This is 18 examples and I'm in
+
+56
+00:02:10,479 --> 00:02:15,040
+the playground. So here I can just run
+
+57
+00:02:13,120 --> 00:02:17,280
+this prompt through the data set and I
+
+58
+00:02:15,040 --> 00:02:19,760
+can start to see the responses, the
+
+59
+00:02:17,280 --> 00:02:21,680
+outputs come in.
+
+60
+00:02:19,760 --> 00:02:23,440
+And so I'm going to let this run and
+
+61
+00:02:21,680 --> 00:02:25,840
+then I'll open this up in a dedicated
+
+62
+00:02:23,440 --> 00:02:27,920
+experiment view by clicking on this
+
+63
+00:02:25,840 --> 00:02:31,120
+button here.
+
+64
+00:02:27,920 --> 00:02:33,280
+So in this experiment view I can see the
+
+65
+00:02:31,120 --> 00:02:35,680
+input queries and then the outputs as
+
+66
+00:02:33,280 --> 00:02:38,239
+well. And so let's imagine for this
+
+67
+00:02:35,680 --> 00:02:40,800
+recipe generation, I want all of the
+
+68
+00:02:38,239 --> 00:02:42,560
+recipes to not have any superfluous
+
+69
+00:02:40,800 --> 00:02:45,360
+adjectives in the title. And so here,
+
+70
+00:02:42,560 --> 00:02:47,680
+like easy vegetarian stir fry, easy is
+
+71
+00:02:45,360 --> 00:02:49,519
+probably superfluous. Perfectly cooked
+
+72
+00:02:47,680 --> 00:02:51,120
+quinoa, perfectly is probably
+
+73
+00:02:49,519 --> 00:02:52,640
+superfluous. If we go down here, like
+
+74
+00:02:51,120 --> 00:02:54,879
+garlic butter salmon with roasted
+
+75
+00:02:52,640 --> 00:02:58,239
+broccoli, that's great. So I want to
+
+76
+00:02:54,879 --> 00:03:01,680
+create an evaluator that scores whether
+
+77
+00:02:58,239 --> 00:03:03,760
+these generated recipe titles meet that
+
+78
+00:03:01,680 --> 00:03:05,120
+criteria. And in order to do that, I'm
+
+79
+00:03:03,760 --> 00:03:06,560
+going to need to use an LM as a judge
+
+80
+00:03:05,120 --> 00:03:07,680
+because I'm going to need to use an LLM
+
+81
+00:03:06,560 --> 00:03:09,680
+to look at the title and determine
+
+82
+00:03:07,680 --> 00:03:11,840
+whether it contains any superfluous kind
+
+83
+00:03:09,680 --> 00:03:13,760
+of adjectives. So, how am I going to do
+
+84
+00:03:11,840 --> 00:03:16,159
+that? So, I'm going to go back to this
+
+85
+00:03:13,760 --> 00:03:18,080
+data set here. I'm going to click add
+
+86
+00:03:16,159 --> 00:03:20,239
+evaluator. I'm going to click create
+
+87
+00:03:18,080 --> 00:03:25,720
+from labelled data. I'm going to now add
+
+88
+00:03:20,239 --> 00:03:25,720
+a feedback key. No superfluous
+
+89
+00:03:26,800 --> 00:03:29,680
+adjectives.
+
+90
+00:03:28,720 --> 00:03:32,319
+And then I'm going to select
+
+91
+00:03:29,680 --> 00:03:34,480
+experiments. And these experiments are
+
+92
+00:03:32,319 --> 00:03:35,840
+going to be ones that I label. So, by
+
+93
+00:03:34,480 --> 00:03:37,280
+default, it will select the most
+
+94
+00:03:35,840 --> 00:03:38,640
+recently run experiment. That's fine
+
+95
+00:03:37,280 --> 00:03:41,920
+with me. And I'm going to click this
+
+96
+00:03:38,640 --> 00:03:43,280
+button, annotate for alignment.
+
+97
+00:03:41,920 --> 00:03:46,159
+And so, you can see that it's adding
+
+98
+00:03:43,280 --> 00:03:49,440
+rooms, adding runs to this annotation
+
+99
+00:03:46,159 --> 00:03:53,120
+queue. And now I'm here. And so, here I
+
+100
+00:03:49,440 --> 00:03:56,480
+can now label does this have no
+
+101
+00:03:53,120 --> 00:03:58,959
+superfluous adjectives. This does have a
+
+102
+00:03:56,480 --> 00:04:00,959
+superfluous adjective classic. So, this
+
+103
+00:03:58,959 --> 00:04:02,640
+does not meet it. So, I'm going to label
+
+104
+00:04:00,959 --> 00:04:04,720
+it that way. And I'm going to continue
+
+105
+00:04:02,640 --> 00:04:06,319
+going on. Refreshing, superfluous. So,
+
+106
+00:04:04,720 --> 00:04:09,360
+let's label that zero. Grilled
+
+107
+00:04:06,319 --> 00:04:12,000
+asparagus. Great. Classic beef and
+
+108
+00:04:09,360 --> 00:04:13,680
+potato skillet. Superfluous. Perfectly
+
+109
+00:04:12,000 --> 00:04:15,840
+cooked quinoa. Superolous. And so, I'm
+
+110
+00:04:13,680 --> 00:04:18,639
+going to keep on doing this for the rest
+
+111
+00:04:15,840 --> 00:04:21,840
+of the labels in this queue. And so, I'm
+
+112
+00:04:18,639 --> 00:04:24,400
+going to skip through that.
+
+113
+00:04:21,840 --> 00:04:26,479
+Great. Now, I'm done. And so, once I'm
+
+114
+00:04:24,400 --> 00:04:28,560
+done, I can now click on to go to
+
+115
+00:04:26,479 --> 00:04:31,120
+evaluator playground. And this is going
+
+116
+00:04:28,560 --> 00:04:34,400
+to bring me to a place where I can start
+
+117
+00:04:31,120 --> 00:04:38,000
+to craft my LLM as a judge prompt that
+
+118
+00:04:34,400 --> 00:04:40,240
+will evaluate these outputs. So how do I
+
+119
+00:04:38,000 --> 00:04:42,160
+do that? So I can see I have this
+
+120
+00:04:40,240 --> 00:04:44,400
+templated thing here replace with
+
+121
+00:04:42,160 --> 00:04:47,120
+grading instructions and then here where
+
+122
+00:04:44,400 --> 00:04:49,280
+I format in some of the actual kind of
+
+123
+00:04:47,120 --> 00:04:51,120
+like outputs that I have. So what I'm
+
+124
+00:04:49,280 --> 00:04:54,800
+going to say is I'm going to say
+
+125
+00:04:51,120 --> 00:04:57,840
+something like the following.
+
+126
+00:04:54,800 --> 00:05:00,000
+So here I have a system prompt that
+
+127
+00:04:57,840 --> 00:05:02,160
+loosely describes what I want it to do.
+
+128
+00:05:00,000 --> 00:05:03,919
+Now I'm going to format in the
+
+129
+00:05:02,160 --> 00:05:05,759
+information that I need from the actual
+
+130
+00:05:03,919 --> 00:05:08,000
+runs because again remember I'm scoring
+
+131
+00:05:05,759 --> 00:05:12,160
+these actual runs. And so I don't
+
+132
+00:05:08,000 --> 00:05:14,960
+actually need the input or the reference
+
+133
+00:05:12,160 --> 00:05:17,919
+output. What I need is the actual
+
+134
+00:05:14,960 --> 00:05:20,320
+output.
+
+135
+00:05:17,919 --> 00:05:22,400
+And I'm just going to call this recipe
+
+136
+00:05:20,320 --> 00:05:26,160
+here because it doesn't actually need to
+
+137
+00:05:22,400 --> 00:05:29,039
+know that it's even an example or an
+
+138
+00:05:26,160 --> 00:05:30,479
+output. And then I'm going to match this
+
+139
+00:05:29,039 --> 00:05:33,479
+up. I'm going to go
+
+140
+00:05:30,479 --> 00:05:33,479
+output.output.content.
+
+141
+00:05:33,759 --> 00:05:38,320
+And so this is going into the message
+
+142
+00:05:35,600 --> 00:05:40,560
+and choosing the content field.
+
+143
+00:05:38,320 --> 00:05:42,560
+Now once I've scored this, I can start
+
+144
+00:05:40,560 --> 00:05:44,639
+alignment. And what this does is it just
+
+145
+00:05:42,560 --> 00:05:46,400
+runs this prompt over this data set and
+
+146
+00:05:44,639 --> 00:05:48,720
+then it will tell me how aligned this
+
+147
+00:05:46,400 --> 00:05:50,479
+LLM as a judge prompt is with my human
+
+148
+00:05:48,720 --> 00:05:52,160
+labels.
+
+149
+00:05:50,479 --> 00:05:54,240
+So I can see it running. I can see the
+
+150
+00:05:52,160 --> 00:05:56,880
+score from the LLM here. And I can see
+
+151
+00:05:54,240 --> 00:06:00,160
+the alignment. So I see that off the bat
+
+152
+00:05:56,880 --> 00:06:03,440
+I have 72% alignment. And so I can look
+
+153
+00:06:00,160 --> 00:06:05,759
+to see where it uh matches or where it
+
+154
+00:06:03,440 --> 00:06:07,520
+doesn't match. And so I sorted it
+
+155
+00:06:05,759 --> 00:06:08,960
+alignment ascending. So now this has all
+
+156
+00:06:07,520 --> 00:06:10,960
+the wrong ones at the top. Let me switch
+
+157
+00:06:08,960 --> 00:06:14,160
+to compact view so it makes it easier to
+
+158
+00:06:10,960 --> 00:06:16,479
+skim. And then let me move this so so
+
+159
+00:06:14,160 --> 00:06:18,560
+you guys can all see. And then I can see
+
+160
+00:06:16,479 --> 00:06:21,360
+that I have here these five examples.
+
+161
+00:06:18,560 --> 00:06:24,160
+And so if I open up
+
+162
+00:06:21,360 --> 00:06:26,000
+one of these given runs, I can see
+
+163
+00:06:24,160 --> 00:06:29,440
+classic homemade pasta. It doesn't think
+
+164
+00:06:26,000 --> 00:06:33,199
+that classic is superfluous. If I click
+
+165
+00:06:29,440 --> 00:06:36,080
+in here, this scores quinoa and chickpea
+
+166
+00:06:33,199 --> 00:06:37,840
+salad with lemon dressing. Um, and so
+
+167
+00:06:36,080 --> 00:06:38,800
+I'm not entirely sure what's going on,
+
+168
+00:06:37,840 --> 00:06:41,280
+but I'm going to add some more
+
+169
+00:06:38,800 --> 00:06:44,240
+instructions to my prompt based on what
+
+170
+00:06:41,280 --> 00:06:47,280
+I can see I think is happening. So I
+
+171
+00:06:44,240 --> 00:06:51,600
+think in the second one it thought that
+
+172
+00:06:47,280 --> 00:06:53,360
+other things besides the title were
+
+173
+00:06:51,600 --> 00:06:54,720
+superflous adjectives, but I only care
+
+174
+00:06:53,360 --> 00:06:56,800
+about what's in the title. So I'm going
+
+175
+00:06:54,720 --> 00:06:58,319
+to add something like the following.
+
+176
+00:06:56,800 --> 00:07:01,280
+Only look at what's in the title. Should
+
+177
+00:06:58,319 --> 00:07:04,000
+be the section starting with double
+
+178
+00:07:01,280 --> 00:07:05,440
+hashtag. Let me look for a few more
+
+179
+00:07:04,000 --> 00:07:10,000
+examples of where it might be messing
+
+180
+00:07:05,440 --> 00:07:12,080
+up. So, grilled asparagus. Grilled is I
+
+181
+00:07:10,000 --> 00:07:18,080
+don't think that's superfluous. So, I'll
+
+182
+00:07:12,080 --> 00:07:22,560
+say something like if the title contains
+
+183
+00:07:18,080 --> 00:07:26,280
+adjectives that relate to how the food
+
+184
+00:07:22,560 --> 00:07:26,280
+is cooked.
+
+185
+00:07:26,960 --> 00:07:33,840
+That is not considered superfluous.
+
+186
+00:07:31,039 --> 00:07:36,400
+Great. So let's now try this again and
+
+187
+00:07:33,840 --> 00:07:38,880
+see what the alignment is this time.
+
+188
+00:07:36,400 --> 00:07:41,360
+Okay, so I can see that the alignment's
+
+189
+00:07:38,880 --> 00:07:43,520
+actually worse. So I can see that it
+
+190
+00:07:41,360 --> 00:07:46,319
+decreased to 56. Okay, so what are some
+
+191
+00:07:43,520 --> 00:07:48,319
+of these examples that this just made
+
+192
+00:07:46,319 --> 00:07:51,919
+worse?
+
+193
+00:07:48,319 --> 00:07:55,440
+Classic homemade pasta it thinks is
+
+194
+00:07:51,919 --> 00:07:58,639
+nothing superfluous there. Classic ch.
+
+195
+00:07:55,440 --> 00:08:02,879
+Okay, so it's messing up on classic. So,
+
+196
+00:07:58,639 --> 00:08:05,680
+let me add something like anything else
+
+197
+00:08:02,879 --> 00:08:08,080
+to look at. Classic pepperoni pizza. I
+
+198
+00:08:05,680 --> 00:08:10,560
+can use these and hot keys to kind of
+
+199
+00:08:08,080 --> 00:08:12,639
+navigate up or down. So, classic beef
+
+200
+00:08:10,560 --> 00:08:16,240
+and potato. It's really messing up.
+
+201
+00:08:12,639 --> 00:08:19,360
+Creamy. Okay. Creamy mushroom soup.
+
+202
+00:08:16,240 --> 00:08:21,919
+So, this it thought had a superfluous
+
+203
+00:08:19,360 --> 00:08:26,879
+adjectives, but it I actually Creamy is
+
+204
+00:08:21,919 --> 00:08:30,800
+how is it prepared. So let's add
+
+205
+00:08:26,879 --> 00:08:33,919
+something like examples include grilled
+
+206
+00:08:30,800 --> 00:08:36,000
+and creamy.
+
+207
+00:08:33,919 --> 00:08:38,640
+Great. Okay. So now let's start
+
+208
+00:08:36,000 --> 00:08:40,479
+alignment with these things in the
+
+209
+00:08:38,640 --> 00:08:42,880
+prompt.
+
+210
+00:08:40,479 --> 00:08:45,839
+Okay. So I'm back up to 78%. Let's take
+
+211
+00:08:42,880 --> 00:08:49,600
+a look at what's going on. Flowerless co
+
+212
+00:08:45,839 --> 00:08:52,480
+chocolate cake. That has to do with how
+
+213
+00:08:49,600 --> 00:08:56,519
+it's cooked. So, I just need to do
+
+214
+00:08:52,480 --> 00:08:56,519
+another thing like,
+
+215
+00:08:57,839 --> 00:09:01,600
+and so I'm cheating a little bit because
+
+216
+00:08:59,360 --> 00:09:04,399
+I'm adding in some specific words that I
+
+217
+00:09:01,600 --> 00:09:05,440
+know it's using. And in real life, I'd
+
+218
+00:09:04,399 --> 00:09:07,279
+probably be a little bit more careful
+
+219
+00:09:05,440 --> 00:09:10,240
+about this is probably overfitting, but
+
+220
+00:09:07,279 --> 00:09:11,680
+I want to do this for demo purposes.
+
+221
+00:09:10,240 --> 00:09:13,200
+And also, it's good to have these
+
+222
+00:09:11,680 --> 00:09:16,000
+examples in there in some form. This is
+
+223
+00:09:13,200 --> 00:09:19,040
+probably just overfitting.
+
+224
+00:09:16,000 --> 00:09:20,320
+Chickpea and avocado salad wraps. I
+
+225
+00:09:19,040 --> 00:09:23,200
+really don't see what it could be kind
+
+226
+00:09:20,320 --> 00:09:26,320
+of like thinking there. So, so one thing
+
+227
+00:09:23,200 --> 00:09:28,880
+that I marked is include reasoning. Um,
+
+228
+00:09:26,320 --> 00:09:33,320
+so what I can do actually is if I click
+
+229
+00:09:28,880 --> 00:09:33,320
+here, I can look at this
+
+230
+00:09:33,360 --> 00:09:38,320
+and in the run.
+
+231
+00:09:35,519 --> 00:09:40,959
+Okay, so it's looking at classic vegan
+
+232
+00:09:38,320 --> 00:09:43,839
+lentil and veggie soup. Where is that
+
+233
+00:09:40,959 --> 00:09:46,080
+coming from? I think that might actually
+
+234
+00:09:43,839 --> 00:09:48,320
+be coming from
+
+235
+00:09:46,080 --> 00:09:50,800
+Yes. Okay. So here it has multiple
+
+236
+00:09:48,320 --> 00:09:54,880
+things
+
+237
+00:09:50,800 --> 00:09:56,720
+but it doesn't actually say classic. So
+
+238
+00:09:54,880 --> 00:10:01,080
+where
+
+239
+00:09:56,720 --> 00:10:01,080
+so it's just completely hallucinating.
+
+240
+00:10:02,240 --> 00:10:05,120
+Okay, so this is a good one to sanity
+
+241
+00:10:03,839 --> 00:10:07,519
+check because this is just completely
+
+242
+00:10:05,120 --> 00:10:09,360
+messing up the LLM as a judge is just
+
+243
+00:10:07,519 --> 00:10:14,200
+wrong. So let me actually switch my
+
+244
+00:10:09,360 --> 00:10:14,200
+model to use a more powerful model.
+
+245
+00:10:16,800 --> 00:10:20,880
+Let's switch to O4 Mini. I think this
+
+246
+00:10:19,040 --> 00:10:22,640
+should be better. And let's restart
+
+247
+00:10:20,880 --> 00:10:24,480
+alignment. And so I've made a change to
+
+248
+00:10:22,640 --> 00:10:26,640
+the prompt, but I've also switched the
+
+249
+00:10:24,480 --> 00:10:30,240
+model that it's using.
+
+250
+00:10:26,640 --> 00:10:32,160
+Okay, great. I can see that it's now 89%
+
+251
+00:10:30,240 --> 00:10:35,360
+aligned. There's still a few points
+
+252
+00:10:32,160 --> 00:10:37,920
+where it's wrong, and I could go and fix
+
+253
+00:10:35,360 --> 00:10:39,120
+those, but for keeping this video a
+
+254
+00:10:37,920 --> 00:10:41,360
+little bit short, I'm just going to save
+
+255
+00:10:39,120 --> 00:10:43,279
+the evaluator here. It's going to save
+
+256
+00:10:41,360 --> 00:10:46,160
+this.
+
+257
+00:10:43,279 --> 00:10:48,079
+Now, if I go back to this data set and I
+
+258
+00:10:46,160 --> 00:10:50,320
+go to the evaluators, I can see that I
+
+259
+00:10:48,079 --> 00:10:52,320
+have this LM as a judge. And if I now
+
+260
+00:10:50,320 --> 00:10:53,760
+run a new experiment, so I'm going to go
+
+261
+00:10:52,320 --> 00:10:56,399
+back to the playground. I'm going to
+
+262
+00:10:53,760 --> 00:11:00,800
+select my prompt, uh, which is
+
+263
+00:10:56,399 --> 00:11:02,720
+Harrison's food prompt. And now if I run
+
+264
+00:11:00,800 --> 00:11:04,240
+this,
+
+265
+00:11:02,720 --> 00:11:06,640
+I'll see that it first generates the
+
+266
+00:11:04,240 --> 00:11:09,760
+outputs, but then it's going to use this
+
+267
+00:11:06,640 --> 00:11:13,120
+evaluator that I defined to score how
+
+268
+00:11:09,760 --> 00:11:15,279
+well this prompt does on generating set
+
+269
+00:11:13,120 --> 00:11:16,800
+outputs. And so let's see what comes
+
+270
+00:11:15,279 --> 00:11:19,360
+back.
+
+271
+00:11:16,800 --> 00:11:23,200
+Fantastic. So I can see that this prompt
+
+272
+00:11:19,360 --> 00:11:25,360
+only scores around 22% on this
+
+273
+00:11:23,200 --> 00:11:28,240
+evaluation metric. And so now if I want
+
+274
+00:11:25,360 --> 00:11:30,399
+to improve how this prompt does on this
+
+275
+00:11:28,240 --> 00:11:33,040
+metric, I can just modify the prompt and
+
+276
+00:11:30,399 --> 00:11:37,680
+rerun. So let's add something like do
+
+277
+00:11:33,040 --> 00:11:39,839
+not include any adjectives
+
+278
+00:11:37,680 --> 00:11:43,519
+in the
+
+279
+00:11:39,839 --> 00:11:47,800
+title that may be
+
+280
+00:11:43,519 --> 00:11:47,800
+considered superfluous.
+
+281
+00:11:49,279 --> 00:11:54,240
+And let's rerun this.
+
+282
+00:11:52,000 --> 00:11:55,920
+Okay, so right off the bat, I can see a
+
+283
+00:11:54,240 --> 00:11:58,880
+few things. So I can see that I improved
+
+284
+00:11:55,920 --> 00:12:01,680
+my score to about 77%. But I can also
+
+285
+00:11:58,880 --> 00:12:04,160
+see that some of these look just wrong.
+
+286
+00:12:01,680 --> 00:12:06,240
+So here it quick and easy tacos. I would
+
+287
+00:12:04,160 --> 00:12:08,959
+argue quick and easy is superfluous, but
+
+288
+00:12:06,240 --> 00:12:11,839
+it's marked as not superfluous. So this
+
+289
+00:12:08,959 --> 00:12:14,320
+now shows how I can go through this loop
+
+290
+00:12:11,839 --> 00:12:16,079
+of iterating on my prompt and then but I
+
+291
+00:12:14,320 --> 00:12:20,720
+also want to go back at times and
+
+292
+00:12:16,079 --> 00:12:22,639
+iterate on the evaluator as well. So you
+
+293
+00:12:20,720 --> 00:12:24,399
+can do all this in Langmith. You can you
+
+294
+00:12:22,639 --> 00:12:26,639
+can edit your prompt. You can create
+
+295
+00:12:24,399 --> 00:12:28,800
+evaluators. You can modify evaluators.
+
+296
+00:12:26,639 --> 00:12:32,000
+You can go back improve your prompt. And
+
+297
+00:12:28,800 --> 00:12:34,160
+and all this is powered by having this
+
+298
+00:12:32,000 --> 00:12:35,680
+evaluator that's aligned with our
+
+299
+00:12:34,160 --> 00:12:38,079
+preferences with what we think
+
+300
+00:12:35,680 --> 00:12:41,360
+superfluous adjectives is. And this new
+
+301
+00:12:38,079 --> 00:12:43,440
+flow provides a really handy UX for
+
+302
+00:12:41,360 --> 00:12:46,079
+labeling data and then making sure that
+
+303
+00:12:43,440 --> 00:12:48,639
+the evaluator is aligned with it. Again,
+
+304
+00:12:46,079 --> 00:12:50,880
+just to recap, this flow is pretty
+
+305
+00:12:48,639 --> 00:12:53,600
+simple, but a powerful way to start
+
+306
+00:12:50,880 --> 00:12:57,040
+quickly onboarding to creating these
+
+307
+00:12:53,600 --> 00:12:59,519
+aligned evaluators. And big shout out to
+
+308
+00:12:57,040 --> 00:13:01,519
+Eugene Yan, who's an independent
+
+309
+00:12:59,519 --> 00:13:03,839
+researcher in the community who created
+
+310
+00:13:01,519 --> 00:13:05,839
+something called align eval about a year
+
+311
+00:13:03,839 --> 00:13:07,760
+ago that provided as a lot of
+
+312
+00:13:05,839 --> 00:13:10,399
+inspiration for this feature in
+
+313
+00:13:07,760 --> 00:13:12,800
+Linksmith. This feature is generally
+
+314
+00:13:10,399 --> 00:13:16,800
+available today. So, go ahead and try
+
+315
+00:13:12,800 --> 00:13:16,800
+it. Thanks for watching.
+
