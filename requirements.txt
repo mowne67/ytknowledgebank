@@ -10,3 +10,4 @@ seaborn
 yt-dlp
 uvicorn
 fastapi
+loguru
