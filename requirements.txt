@@ -8,3 +8,5 @@ python-dotenv
 pandas
 seaborn
 yt-dlp
+uvicorn
+fastapi
