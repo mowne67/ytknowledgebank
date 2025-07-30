@@ -7,13 +7,14 @@
 - **Solution**: Removed `chrome_url_overrides` from manifest.json
 - **Result**: New tab page is no longer affected by the extension
 
-### 2. Render Sign-in Error
-- **Problem**: yt-dlp authentication issues on Render deployment
-- **Solution**: Added better error handling and retry mechanisms
+### 2. Render Sign-in Error (BOT DETECTION)
+- **Problem**: YouTube detecting requests as bot and requiring authentication
+- **Solution**: Implemented multi-layered fallback system with multiple authentication methods
 - **Changes Made**:
-  - Enhanced subtitle extraction with retry logic
-  - Added user agent headers to avoid blocking
-  - Improved error handling in API endpoints
+  - Enhanced yt-dlp with multiple authentication approaches (Chrome/Firefox cookies, different user agents)
+  - Added YouTube Transcript API fallback (most reliable for transcripts)
+  - Added YouTube Data API fallback as secondary option
+  - Improved error handling and retry mechanisms
   - Added health check endpoint
 
 ## Deployment Steps
@@ -27,8 +28,9 @@
 1. Ensure your Render app has the following environment variables:
    ```
    PYTHON_VERSION=3.9
+   YOUTUBE_API_KEY=your_youtube_api_key_here  # Optional, for Data API fallback
    ```
-2. The app should automatically install dependencies from `requirements.txt`
+2. The app will automatically install dependencies from `requirements.txt`
 3. Render will use the `main.py` file as the entry point
 
 ### 3. Testing the Fixes
@@ -42,7 +44,30 @@
    - Click the extension icon
    - Verify it works with both local and production URLs
 
-### 4. Troubleshooting Render Issues
+### 4. Authentication Fallback System
+
+The system now uses a multi-layered approach to handle YouTube authentication:
+
+1. **Primary**: yt-dlp with multiple authentication methods
+   - Chrome browser cookies
+   - Firefox browser cookies
+   - Enhanced headers with different user agents
+   - Mobile user agent
+
+2. **Secondary**: YouTube Transcript API (youtube-transcript-api)
+   - Most reliable for getting transcripts
+   - No authentication required
+   - Handles multiple languages automatically
+
+3. **Tertiary**: YouTube Data API
+   - Requires API key
+   - Limited transcript access
+   - Good for video metadata
+
+4. **Final**: Minimal yt-dlp options
+   - Last resort with basic settings
+
+### 5. Troubleshooting Render Issues
 
 If you still get sign-in errors on Render:
 
@@ -50,11 +75,11 @@ If you still get sign-in errors on Render:
 2. **Video Restrictions**: Some videos may require authentication
 3. **Rate Limiting**: YouTube may block requests from Render IPs
 4. **Alternative Solutions**:
-   - Use a different subtitle extraction method
-   - Implement cookie-based authentication
-   - Use YouTube Data API instead of yt-dlp
+   - The YouTube Transcript API fallback should handle most cases
+   - Consider using a different video hosting platform
+   - Implement proxy rotation for Render
 
-### 5. Extension Features
+### 6. Extension Features
 
 - **New Tab Override**: Disabled by default (can be enabled in config.js)
 - **Environment Detection**: Automatically switches between local and production URLs
@@ -76,9 +101,36 @@ FEATURES: {
 - `POST /summarize` - Main summarization endpoint
 - `GET /health` - Health check for monitoring
 
+## Dependencies Added
+
+- `youtube-transcript-api` - For reliable transcript extraction
+- `requests` - For API calls in fallback methods
+
 ## Common Issues and Solutions
 
-1. **"Authentication required" error**: Video is restricted, try a different video
-2. **"Video not found" error**: Check if the video URL is valid
-3. **Extension not working**: Check the API URL in config.js
-4. **New tab still affected**: Make sure you reloaded the extension after changes 
+1. **"Sign in to confirm you're not a bot" error**: 
+   - The system will automatically try multiple fallback methods
+   - YouTube Transcript API should handle most cases
+   - Check logs to see which method succeeded
+
+2. **"Authentication required" error**: 
+   - Video is restricted, try a different video
+   - The fallback system should handle this automatically
+
+3. **"Video not found" error**: 
+   - Check if the video URL is valid
+   - Video might be private or deleted
+
+4. **Extension not working**: 
+   - Check the API URL in config.js
+   - Verify the Render deployment is working
+
+5. **New tab still affected**: 
+   - Make sure you reloaded the extension after changes
+
+## Performance Notes
+
+- The system will try multiple methods in sequence
+- YouTube Transcript API is the fastest and most reliable
+- yt-dlp methods may take longer but provide more metadata
+- Failed attempts are logged for debugging 

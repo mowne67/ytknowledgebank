@@ -144,3 +144,5 @@
 2025-07-31 02:15:21.669 | INFO     | endpoint:summarize:29 - Summary generated successfully
 2025-07-31 04:12:29.584 | INFO     | main:summarize:28 - Received request to summarize URL: https://www.youtube.com/watch?v=-9o94oj4x0A
 2025-07-31 04:12:29.626 | INFO     | pipeline:final_pipeline:25 - Starting pipeline for URL: https://www.youtube.com/watch?v=-9o94oj4x0A
+2025-07-31 04:13:29.889 | INFO     | pipeline:final_pipeline:49 - Pipeline completed successfully
+2025-07-31 04:13:29.891 | INFO     | main:summarize:36 - Summary generated successfully
