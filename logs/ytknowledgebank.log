@@ -1,0 +1,120 @@
+2025-07-30 03:05:06.154 | INFO     | endpoint:summarize:27 - Received request to summarize URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 03:05:06.160 | INFO     | pipeline:final_pipeline:25 - Starting pipeline for URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 03:05:33.437 | INFO     | pipeline:final_pipeline:49 - Pipeline completed successfully
+2025-07-30 03:05:33.437 | INFO     | endpoint:summarize:29 - Summary generated successfully
+2025-07-30 03:11:20.157 | INFO     | endpoint:summarize:27 - Received request to summarize URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 03:11:20.160 | INFO     | pipeline:final_pipeline:25 - Starting pipeline for URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 03:11:46.018 | INFO     | pipeline:final_pipeline:49 - Pipeline completed successfully
+2025-07-30 03:11:46.019 | INFO     | endpoint:summarize:29 - Summary generated successfully
+2025-07-30 03:13:08.803 | INFO     | endpoint:summarize:27 - Received request to summarize URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 03:13:08.804 | INFO     | pipeline:final_pipeline:25 - Starting pipeline for URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 03:13:27.750 | INFO     | pipeline:final_pipeline:49 - Pipeline completed successfully
+2025-07-30 03:13:27.751 | INFO     | endpoint:summarize:29 - Summary generated successfully
+2025-07-30 03:15:09.941 | INFO     | endpoint:summarize:27 - Received request to summarize URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 03:15:09.945 | INFO     | pipeline:final_pipeline:25 - Starting pipeline for URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 03:15:46.363 | INFO     | pipeline:final_pipeline:49 - Pipeline completed successfully
+2025-07-30 03:15:46.364 | INFO     | endpoint:summarize:29 - Summary generated successfully
+2025-07-30 03:15:55.942 | INFO     | endpoint:summarize:27 - Received request to summarize URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 03:15:55.945 | INFO     | pipeline:final_pipeline:25 - Starting pipeline for URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 03:16:17.711 | INFO     | pipeline:final_pipeline:49 - Pipeline completed successfully
+2025-07-30 03:16:17.712 | INFO     | endpoint:summarize:29 - Summary generated successfully
+2025-07-30 03:18:45.157 | INFO     | endpoint:summarize:27 - Received request to summarize URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 03:18:45.162 | INFO     | pipeline:final_pipeline:25 - Starting pipeline for URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 03:19:07.236 | INFO     | pipeline:final_pipeline:49 - Pipeline completed successfully
+2025-07-30 03:19:07.236 | INFO     | endpoint:summarize:29 - Summary generated successfully
+2025-07-30 03:22:14.393 | INFO     | endpoint:summarize:27 - Received request to summarize URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 03:22:14.394 | INFO     | pipeline:final_pipeline:25 - Starting pipeline for URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 03:22:37.686 | INFO     | pipeline:final_pipeline:49 - Pipeline completed successfully
+2025-07-30 03:22:37.687 | INFO     | endpoint:summarize:29 - Summary generated successfully
+2025-07-30 03:26:35.798 | INFO     | endpoint:summarize:27 - Received request to summarize URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 03:26:35.799 | INFO     | pipeline:final_pipeline:25 - Starting pipeline for URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 03:27:10.167 | INFO     | pipeline:final_pipeline:49 - Pipeline completed successfully
+2025-07-30 03:27:10.168 | INFO     | endpoint:summarize:29 - Summary generated successfully
+2025-07-30 03:29:45.282 | INFO     | endpoint:summarize:27 - Received request to summarize URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 03:29:45.282 | INFO     | pipeline:final_pipeline:25 - Starting pipeline for URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 03:30:03.487 | INFO     | pipeline:final_pipeline:49 - Pipeline completed successfully
+2025-07-30 03:30:03.488 | INFO     | endpoint:summarize:29 - Summary generated successfully
+2025-07-30 03:41:01.280 | INFO     | endpoint:summarize:27 - Received request to summarize URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 03:41:01.290 | INFO     | pipeline:final_pipeline:25 - Starting pipeline for URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 03:41:24.257 | INFO     | pipeline:final_pipeline:49 - Pipeline completed successfully
+2025-07-30 03:41:24.257 | INFO     | endpoint:summarize:29 - Summary generated successfully
+2025-07-30 03:46:42.022 | INFO     | endpoint:summarize:27 - Received request to summarize URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 03:46:42.035 | INFO     | pipeline:final_pipeline:25 - Starting pipeline for URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 03:49:47.875 | INFO     | endpoint:summarize:27 - Received request to summarize URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 03:49:47.876 | INFO     | pipeline:final_pipeline:25 - Starting pipeline for URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 03:50:12.516 | INFO     | pipeline:final_pipeline:49 - Pipeline completed successfully
+2025-07-30 03:50:12.516 | INFO     | endpoint:summarize:29 - Summary generated successfully
+2025-07-30 03:55:08.065 | INFO     | endpoint:summarize:27 - Received request to summarize URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 03:55:08.069 | INFO     | pipeline:final_pipeline:25 - Starting pipeline for URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 03:55:27.690 | INFO     | pipeline:final_pipeline:49 - Pipeline completed successfully
+2025-07-30 03:55:27.691 | INFO     | endpoint:summarize:29 - Summary generated successfully
+2025-07-30 03:59:15.970 | INFO     | endpoint:summarize:27 - Received request to summarize URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 03:59:15.985 | INFO     | pipeline:final_pipeline:25 - Starting pipeline for URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 03:59:37.419 | INFO     | pipeline:final_pipeline:49 - Pipeline completed successfully
+2025-07-30 03:59:37.420 | INFO     | endpoint:summarize:29 - Summary generated successfully
+2025-07-30 04:02:34.643 | INFO     | endpoint:summarize:27 - Received request to summarize URL: chrome-extension://npgdgdloknfpinonapcfmkklmckohcbf/loading.html
+2025-07-30 04:02:34.660 | INFO     | pipeline:final_pipeline:25 - Starting pipeline for URL: chrome-extension://npgdgdloknfpinonapcfmkklmckohcbf/loading.html
+2025-07-30 04:02:49.869 | INFO     | pipeline:final_pipeline:49 - Pipeline completed successfully
+2025-07-30 04:02:49.870 | INFO     | endpoint:summarize:29 - Summary generated successfully
+2025-07-30 04:04:58.611 | INFO     | endpoint:summarize:27 - Received request to summarize URL: chrome-extension://npgdgdloknfpinonapcfmkklmckohcbf/loading.html
+2025-07-30 04:04:58.623 | INFO     | pipeline:final_pipeline:25 - Starting pipeline for URL: chrome-extension://npgdgdloknfpinonapcfmkklmckohcbf/loading.html
+2025-07-30 04:05:10.205 | INFO     | pipeline:final_pipeline:49 - Pipeline completed successfully
+2025-07-30 04:05:10.205 | INFO     | endpoint:summarize:29 - Summary generated successfully
+2025-07-30 04:05:41.008 | INFO     | endpoint:summarize:27 - Received request to summarize URL: chrome-extension://npgdgdloknfpinonapcfmkklmckohcbf/loading.html
+2025-07-30 04:05:41.008 | INFO     | pipeline:final_pipeline:25 - Starting pipeline for URL: chrome-extension://npgdgdloknfpinonapcfmkklmckohcbf/loading.html
+2025-07-30 04:07:11.382 | INFO     | endpoint:summarize:27 - Received request to summarize URL: chrome-extension://npgdgdloknfpinonapcfmkklmckohcbf/loading.html
+2025-07-30 04:07:11.386 | INFO     | pipeline:final_pipeline:25 - Starting pipeline for URL: chrome-extension://npgdgdloknfpinonapcfmkklmckohcbf/loading.html
+2025-07-30 04:07:23.235 | INFO     | pipeline:final_pipeline:49 - Pipeline completed successfully
+2025-07-30 04:07:23.235 | INFO     | endpoint:summarize:29 - Summary generated successfully
+2025-07-30 04:10:56.617 | INFO     | endpoint:summarize:27 - Received request to summarize URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 04:10:56.624 | INFO     | pipeline:final_pipeline:25 - Starting pipeline for URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 04:11:17.561 | INFO     | pipeline:final_pipeline:49 - Pipeline completed successfully
+2025-07-30 04:11:17.562 | INFO     | endpoint:summarize:29 - Summary generated successfully
+2025-07-30 04:14:17.796 | INFO     | endpoint:summarize:27 - Received request to summarize URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 04:14:17.800 | INFO     | pipeline:final_pipeline:25 - Starting pipeline for URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 04:14:40.582 | INFO     | pipeline:final_pipeline:49 - Pipeline completed successfully
+2025-07-30 04:14:40.583 | INFO     | endpoint:summarize:29 - Summary generated successfully
+2025-07-30 04:20:50.796 | INFO     | endpoint:summarize:27 - Received request to summarize URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 04:20:50.800 | INFO     | pipeline:final_pipeline:25 - Starting pipeline for URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 04:21:10.659 | INFO     | pipeline:final_pipeline:49 - Pipeline completed successfully
+2025-07-30 04:21:10.660 | INFO     | endpoint:summarize:29 - Summary generated successfully
+2025-07-30 04:21:44.530 | INFO     | endpoint:summarize:27 - Received request to summarize URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 04:21:44.562 | INFO     | pipeline:final_pipeline:25 - Starting pipeline for URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 04:22:20.893 | INFO     | endpoint:summarize:27 - Received request to summarize URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 04:22:20.894 | INFO     | pipeline:final_pipeline:25 - Starting pipeline for URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 04:24:30.610 | INFO     | endpoint:summarize:27 - Received request to summarize URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 04:24:30.611 | INFO     | pipeline:final_pipeline:25 - Starting pipeline for URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 04:24:59.650 | INFO     | endpoint:summarize:27 - Received request to summarize URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 04:24:59.660 | INFO     | pipeline:final_pipeline:25 - Starting pipeline for URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 04:28:08.457 | INFO     | endpoint:summarize:27 - Received request to summarize URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 04:28:08.458 | INFO     | pipeline:final_pipeline:25 - Starting pipeline for URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 04:28:50.293 | INFO     | pipeline:final_pipeline:49 - Pipeline completed successfully
+2025-07-30 04:28:50.294 | INFO     | endpoint:summarize:29 - Summary generated successfully
+2025-07-30 04:31:35.464 | INFO     | endpoint:summarize:27 - Received request to summarize URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 04:31:35.468 | INFO     | pipeline:final_pipeline:25 - Starting pipeline for URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 04:32:03.316 | INFO     | endpoint:summarize:27 - Received request to summarize URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 04:32:03.317 | INFO     | pipeline:final_pipeline:25 - Starting pipeline for URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 04:32:40.525 | INFO     | pipeline:final_pipeline:49 - Pipeline completed successfully
+2025-07-30 04:32:40.526 | INFO     | endpoint:summarize:29 - Summary generated successfully
+2025-07-30 04:32:51.680 | INFO     | pipeline:final_pipeline:49 - Pipeline completed successfully
+2025-07-30 04:32:51.681 | INFO     | endpoint:summarize:29 - Summary generated successfully
+2025-07-30 04:34:54.821 | INFO     | endpoint:summarize:27 - Received request to summarize URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 04:34:54.825 | INFO     | pipeline:final_pipeline:25 - Starting pipeline for URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 04:35:28.228 | INFO     | pipeline:final_pipeline:49 - Pipeline completed successfully
+2025-07-30 04:35:28.229 | INFO     | endpoint:summarize:29 - Summary generated successfully
+2025-07-30 04:35:56.000 | INFO     | endpoint:summarize:27 - Received request to summarize URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 04:35:56.015 | INFO     | pipeline:final_pipeline:25 - Starting pipeline for URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 04:36:28.129 | INFO     | pipeline:final_pipeline:49 - Pipeline completed successfully
+2025-07-30 04:36:28.130 | INFO     | endpoint:summarize:29 - Summary generated successfully
+2025-07-30 04:37:54.990 | INFO     | endpoint:summarize:27 - Received request to summarize URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 04:37:55.001 | INFO     | pipeline:final_pipeline:25 - Starting pipeline for URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 04:38:27.094 | INFO     | pipeline:final_pipeline:49 - Pipeline completed successfully
+2025-07-30 04:38:27.095 | INFO     | endpoint:summarize:29 - Summary generated successfully
+2025-07-30 04:42:26.606 | INFO     | endpoint:summarize:27 - Received request to summarize URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 04:42:26.608 | INFO     | pipeline:final_pipeline:25 - Starting pipeline for URL: https://www.youtube.com/watch?v=shU_gV5Xq-Q
+2025-07-30 04:43:06.658 | INFO     | pipeline:final_pipeline:49 - Pipeline completed successfully
+2025-07-30 04:43:06.660 | INFO     | endpoint:summarize:29 - Summary generated successfully
+2025-07-30 19:02:59.335 | INFO     | endpoint:summarize:27 - Received request to summarize URL: https://www.youtube.com/watch?v=jelDZ0DrhmY
+2025-07-30 19:02:59.352 | INFO     | pipeline:final_pipeline:25 - Starting pipeline for URL: https://www.youtube.com/watch?v=jelDZ0DrhmY
+2025-07-30 19:03:52.103 | INFO     | pipeline:final_pipeline:49 - Pipeline completed successfully
+2025-07-30 19:03:52.104 | INFO     | endpoint:summarize:29 - Summary generated successfully

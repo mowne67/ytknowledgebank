@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Summary</title>
+  <script src="marked.min.js"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      background: url('bg.jpg') no-repeat center center;
+      background-size: cover;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    #content {
+      max-width: 800px;
+      margin: 3em auto;
+      font-size: 1.2rem;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 1.5em;
+      border-radius: 10px;
+      line-height: 1.6;
+    }
+
+    h1, h2, h3 {
+      color: #ffd95a;
+    }
+
+    pre, code {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-family: monospace;
+      color: #cceeff;
+    }
+  </style>
+</head>
+<body>
+  <div id="content">Loading summary…</div>
+  <script defer src="result.js"></script>
+</body>
+</html>

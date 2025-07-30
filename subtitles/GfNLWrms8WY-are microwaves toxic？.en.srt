@@ -1,0 +1,960 @@
+1
+00:00:00,240 --> 00:00:05,040
+acrylamide is formed when you microwave
+
+2
+00:00:02,760 --> 00:00:06,359
+your food and if it sounds toxic that's
+
+3
+00:00:05,040 --> 00:00:07,680
+because it is you have to understand
+
+4
+00:00:06,359 --> 00:00:09,759
+that the human body is not just a
+
+5
+00:00:07,680 --> 00:00:12,080
+biochemical machine it's also an
+
+6
+00:00:09,759 --> 00:00:13,320
+electrochemical Masterpiece most people
+
+7
+00:00:12,080 --> 00:00:14,920
+don't know this but the signals from our
+
+8
+00:00:13,320 --> 00:00:16,600
+brain is not transmitted to the rest of
+
+9
+00:00:14,920 --> 00:00:19,199
+our body through electrical pulses like
+
+10
+00:00:16,600 --> 00:00:21,920
+in a wire but rather through a system of
+
+11
+00:00:19,199 --> 00:00:23,760
+ion channels and electron pumps and
+
+12
+00:00:21,920 --> 00:00:25,560
+these store up energy in the form of
+
+13
+00:00:23,760 --> 00:00:28,080
+concentration gradients and they
+
+14
+00:00:25,560 --> 00:00:30,320
+basically use that to transmit a pulse
+
+15
+00:00:28,080 --> 00:00:32,800
+through a series of long cell called
+
+16
+00:00:30,320 --> 00:00:34,840
+neurons and all this relies on ions like
+
+17
+00:00:32,800 --> 00:00:37,320
+calcium sodium and potassium and that
+
+18
+00:00:34,840 --> 00:00:39,000
+brings us to our video sponsor element
+
+19
+00:00:37,320 --> 00:00:41,079
+now I'm kidding with you man but
+
+20
+00:00:39,000 --> 00:00:43,079
+the thing is these ions these charged
+
+21
+00:00:41,079 --> 00:00:44,760
+particles are influenced by
+
+22
+00:00:43,079 --> 00:00:45,960
+electromagnetic radiation I talked
+
+23
+00:00:44,760 --> 00:00:48,079
+earlier about the formation of
+
+24
+00:00:45,960 --> 00:00:49,600
+acrylamide in our food when you heat it
+
+25
+00:00:48,079 --> 00:00:51,480
+in the microwave but even before that
+
+26
+00:00:49,600 --> 00:00:53,239
+let's talk about improper shielding so
+
+27
+00:00:51,480 --> 00:00:55,239
+if you ever listened to music on your
+
+28
+00:00:53,239 --> 00:00:57,280
+Bluetooth headphones while you're using
+
+29
+00:00:55,239 --> 00:00:59,359
+a microwave oven you might have noticed
+
+30
+00:00:57,280 --> 00:01:00,480
+that there's interference or even
+
+31
+00:00:59,359 --> 00:01:03,320
+disconnection
+
+32
+00:01:00,480 --> 00:01:05,199
+from your device this is proof that the
+
+33
+00:01:03,320 --> 00:01:06,799
+radiation is not shielded properly that
+
+34
+00:01:05,199 --> 00:01:08,880
+is to say electromagnetic radiation is
+
+35
+00:01:06,799 --> 00:01:10,320
+leaking from your microen and we can of
+
+36
+00:01:08,880 --> 00:01:12,159
+assume that there's no problem here
+
+37
+00:01:10,320 --> 00:01:14,040
+there's no Health effect but what if
+
+38
+00:01:12,159 --> 00:01:15,439
+there is but talking about the food
+
+39
+00:01:14,040 --> 00:01:17,119
+again so let's talk about another
+
+40
+00:01:15,439 --> 00:01:18,759
+observation you probably notice that
+
+41
+00:01:17,119 --> 00:01:20,720
+when you heat food a microwave like some
+
+42
+00:01:18,759 --> 00:01:22,840
+parts of it are ice cold when other
+
+43
+00:01:20,720 --> 00:01:24,920
+parts are super heated this is the
+
+44
+00:01:22,840 --> 00:01:27,000
+problem which causes the formation of
+
+45
+00:01:24,920 --> 00:01:29,520
+these toxins so because some parts of
+
+46
+00:01:27,000 --> 00:01:31,920
+the food are heated to an extreme degree
+
+47
+00:01:29,520 --> 00:01:34,280
+there's chemical reactions which start
+
+48
+00:01:31,920 --> 00:01:36,000
+which cause the creation of acrylamide
+
+49
+00:01:34,280 --> 00:01:38,560
+and other toxins so when it comes to the
+
+50
+00:01:36,000 --> 00:01:40,520
+issue of the electromagnetic shielding
+
+51
+00:01:38,560 --> 00:01:41,759
+the solution is pretty clear just step
+
+52
+00:01:40,520 --> 00:01:43,439
+away from your microwave when you're
+
+53
+00:01:41,759 --> 00:01:45,159
+using it simply stepping away from the
+
+54
+00:01:43,439 --> 00:01:46,680
+microwave is going to drastically reduce
+
+55
+00:01:45,159 --> 00:01:48,680
+the electromagnetic radiation that you
+
+56
+00:01:46,680 --> 00:01:50,360
+actually incur and if you're like four
+
+57
+00:01:48,680 --> 00:01:52,320
+five steps away from your microwave
+
+58
+00:01:50,360 --> 00:01:53,719
+that's far enough but the acrylamide
+
+59
+00:01:52,320 --> 00:01:55,560
+issue is a little bit more complex it
+
+60
+00:01:53,719 --> 00:01:57,880
+depends on what food it is how long
+
+61
+00:01:55,560 --> 00:01:59,840
+you've been heating it for and how you
+
+62
+00:01:57,880 --> 00:02:01,880
+actually heat it so first thing Heating
+
+63
+00:01:59,840 --> 00:02:03,960
+liquids is mostly fine heating water
+
+64
+00:02:01,880 --> 00:02:05,479
+milk coffee I have no issue with that
+
+65
+00:02:03,960 --> 00:02:07,079
+and the reason behind that is because in
+
+66
+00:02:05,479 --> 00:02:08,959
+liquids the particles are free to move
+
+67
+00:02:07,079 --> 00:02:10,800
+so as you're heating them in a microwave
+
+68
+00:02:08,959 --> 00:02:12,560
+there's convection currents which form
+
+69
+00:02:10,800 --> 00:02:14,319
+which kind of move around the water move
+
+70
+00:02:12,560 --> 00:02:16,239
+around the liquid and no part of the
+
+71
+00:02:14,319 --> 00:02:18,280
+liquid gets super heated and so there's
+
+72
+00:02:16,239 --> 00:02:20,720
+no formation of toxins but now when it
+
+73
+00:02:18,280 --> 00:02:23,200
+comes to food especially carbohydrate
+
+74
+00:02:20,720 --> 00:02:25,319
+rich foods so what's going on is this
+
+75
+00:02:23,200 --> 00:02:27,680
+extra heat this excess heat causes a
+
+76
+00:02:25,319 --> 00:02:29,480
+reaction called the mord reaction and to
+
+77
+00:02:27,680 --> 00:02:31,879
+be fair mord reactions are very common
+
+78
+00:02:29,480 --> 00:02:33,319
+in cooking and I'm not at all saying
+
+79
+00:02:31,879 --> 00:02:36,440
+that this reaction is always to be
+
+80
+00:02:33,319 --> 00:02:38,480
+avoided searing a steak or caramelizing
+
+81
+00:02:36,440 --> 00:02:41,040
+the top of a Creme Brule that's all a
+
+82
+00:02:38,480 --> 00:02:42,840
+form of mad reaction so basically when
+
+83
+00:02:41,040 --> 00:02:44,879
+carbohydrates and amino acids are
+
+84
+00:02:42,840 --> 00:02:47,599
+subjected to extreme heat you have the
+
+85
+00:02:44,879 --> 00:02:50,720
+potential to create acrylamides so don't
+
+86
+00:02:47,599 --> 00:02:52,959
+heat carbohydrates in the microwave for
+
+87
+00:02:50,720 --> 00:02:54,840
+too long and before I even get into that
+
+88
+00:02:52,959 --> 00:02:56,920
+heating the microwave is not by any
+
+89
+00:02:54,840 --> 00:02:58,879
+means the only cooking process or only
+
+90
+00:02:56,920 --> 00:03:00,360
+heating process which causes the
+
+91
+00:02:58,879 --> 00:03:03,120
+creation of toxin
+
+92
+00:03:00,360 --> 00:03:05,239
+far far worse is deep frying in seed
+
+93
+00:03:03,120 --> 00:03:06,959
+oils so if you have french fries and you
+
+94
+00:03:05,239 --> 00:03:09,000
+deep fry them in seed oils that's far
+
+95
+00:03:06,959 --> 00:03:10,840
+more contaminated the toxins than taking
+
+96
+00:03:09,000 --> 00:03:13,239
+a potato and baking it in the microwave
+
+97
+00:03:10,840 --> 00:03:15,480
+oven so if you were to make fries by
+
+98
+00:03:13,239 --> 00:03:17,879
+frying it in Tallow that's fine but if
+
+99
+00:03:15,480 --> 00:03:18,879
+you fry it in seed oils it is not fine
+
+100
+00:03:17,879 --> 00:03:20,920
+and the reason comes down to the
+
+101
+00:03:18,879 --> 00:03:22,640
+stability of the fats saturated fats
+
+102
+00:03:20,920 --> 00:03:24,280
+like Tallow are extremely stable they
+
+103
+00:03:22,640 --> 00:03:26,200
+can withstand quite a bit of oxidative
+
+104
+00:03:24,280 --> 00:03:28,200
+stress seed oils on the other hand are
+
+105
+00:03:26,200 --> 00:03:30,319
+unstable they have double bonds these
+
+106
+00:03:28,200 --> 00:03:31,959
+bonds can break down through oxidative
+
+107
+00:03:30,319 --> 00:03:34,200
+stress and this causes the oils to
+
+108
+00:03:31,959 --> 00:03:36,640
+become toxic and I have a whole video on
+
+109
+00:03:34,200 --> 00:03:38,360
+seed oils already created so if you want
+
+110
+00:03:36,640 --> 00:03:39,879
+to watch that for more information
+
+111
+00:03:38,360 --> 00:03:41,920
+please do so I'll link to it in the
+
+112
+00:03:39,879 --> 00:03:43,400
+description or even have the card pop up
+
+113
+00:03:41,920 --> 00:03:45,120
+as an end screen at the end of this
+
+114
+00:03:43,400 --> 00:03:47,360
+video the story of seed oils is a
+
+115
+00:03:45,120 --> 00:03:49,239
+disgusting story of corporate greed and
+
+116
+00:03:47,360 --> 00:03:51,120
+government subsidy I'm simply not okay
+
+117
+00:03:49,239 --> 00:03:53,360
+with putting industrial lubricant into
+
+118
+00:03:51,120 --> 00:03:55,439
+my body despite what government
+
+119
+00:03:53,360 --> 00:03:57,680
+organizations and the American Heart
+
+120
+00:03:55,439 --> 00:03:59,319
+Association which is a scam organization
+
+121
+00:03:57,680 --> 00:04:02,439
+have to say about the topic now coming
+
+122
+00:03:59,319 --> 00:04:04,720
+back to to microwaves so don't store
+
+123
+00:04:02,439 --> 00:04:07,519
+anything on top of the microwave because
+
+124
+00:04:04,720 --> 00:04:09,599
+it will be affected by the radiation so
+
+125
+00:04:07,519 --> 00:04:11,680
+I went to my mom's house a month ago and
+
+126
+00:04:09,599 --> 00:04:13,799
+she had Vitamin D supplements on top of
+
+127
+00:04:11,680 --> 00:04:14,959
+the microwave and I just picked it up as
+
+128
+00:04:13,799 --> 00:04:16,560
+the microwave was running I was just
+
+129
+00:04:14,959 --> 00:04:18,919
+heating some coffee or something and I
+
+130
+00:04:16,560 --> 00:04:20,799
+felt that it was warm like really warm I
+
+131
+00:04:18,919 --> 00:04:22,320
+realized that this vitamin D supplement
+
+132
+00:04:20,799 --> 00:04:24,199
+was essentially going through hundreds
+
+133
+00:04:22,320 --> 00:04:25,800
+of cycles of heating and cooling every
+
+134
+00:04:24,199 --> 00:04:27,320
+time this microwave was switched on so
+
+135
+00:04:25,800 --> 00:04:29,800
+Vitamin D supplements are kind of BS
+
+136
+00:04:27,320 --> 00:04:31,600
+anyway the soft gel tablets that it come
+
+137
+00:04:29,800 --> 00:04:33,240
+in it's filled with seed oils and the
+
+138
+00:04:31,600 --> 00:04:34,880
+fact that my mom had placed it on top of
+
+139
+00:04:33,240 --> 00:04:37,120
+the microwave and subject it to
+
+140
+00:04:34,880 --> 00:04:38,840
+countless cycles of heating and cooling
+
+141
+00:04:37,120 --> 00:04:40,479
+made that toxic so I tossed it out
+
+142
+00:04:38,840 --> 00:04:41,720
+immediately and speaking of Vitamin D
+
+143
+00:04:40,479 --> 00:04:43,440
+supplements all I have to say about that
+
+144
+00:04:41,720 --> 00:04:45,240
+topic is if you need Vitamin D
+
+145
+00:04:43,440 --> 00:04:46,840
+supplements for example if you are in a
+
+146
+00:04:45,240 --> 00:04:49,039
+cold region and you don't get a lot of
+
+147
+00:04:46,840 --> 00:04:50,919
+sunlight during the winter months
+
+148
+00:04:49,039 --> 00:04:52,840
+especially if you're dark skinned like I
+
+149
+00:04:50,919 --> 00:04:54,960
+am then it does actually make sense to
+
+150
+00:04:52,840 --> 00:04:57,440
+have a supplement for vitamin D but not
+
+151
+00:04:54,960 --> 00:05:00,039
+the actual store-bought capsules instead
+
+152
+00:04:57,440 --> 00:05:02,400
+go for cod liver oil from a company that
+
+153
+00:05:00,039 --> 00:05:04,840
+actually gets their sourcing from
+
+154
+00:05:02,400 --> 00:05:06,479
+non-toxic fish the one which I use is
+
+155
+00:05:04,840 --> 00:05:08,160
+called Green pasture I've recommended it
+
+156
+00:05:06,479 --> 00:05:09,800
+before so I personally have been cutting
+
+157
+00:05:08,160 --> 00:05:11,440
+down drastically on my use of the
+
+158
+00:05:09,800 --> 00:05:13,720
+microwave oven I've instead started
+
+159
+00:05:11,440 --> 00:05:15,280
+using the convection oven so what you do
+
+160
+00:05:13,720 --> 00:05:17,199
+is just take your food put it on your
+
+161
+00:05:15,280 --> 00:05:20,840
+ceramic plate set the convection oven
+
+162
+00:05:17,199 --> 00:05:22,919
+for 375° f let the thing preheat and
+
+163
+00:05:20,840 --> 00:05:25,039
+then you put your food in for about 10
+
+164
+00:05:22,919 --> 00:05:26,479
+to 12 minutes you can absolutely put
+
+165
+00:05:25,039 --> 00:05:27,520
+multiple plates of food in there if
+
+166
+00:05:26,479 --> 00:05:29,800
+you're eating with your friends or
+
+167
+00:05:27,520 --> 00:05:31,680
+family so what if you have no option but
+
+168
+00:05:29,800 --> 00:05:33,160
+to use a microwave oven for example if
+
+169
+00:05:31,680 --> 00:05:34,880
+you pack your home food food and you
+
+170
+00:05:33,160 --> 00:05:36,560
+take it to work and you handly have the
+
+171
+00:05:34,880 --> 00:05:38,400
+option of a microwave oven what do you
+
+172
+00:05:36,560 --> 00:05:40,240
+do so here's some tips I can give you
+
+173
+00:05:38,400 --> 00:05:42,800
+first make sure that you aren't leaving
+
+174
+00:05:40,240 --> 00:05:44,160
+the food in there for more than 1 minute
+
+175
+00:05:42,800 --> 00:05:46,520
+so you can put the food in there for 1
+
+176
+00:05:44,160 --> 00:05:48,319
+minute and then take it out Stir It flip
+
+177
+00:05:46,520 --> 00:05:49,960
+it move it whatever it is and then put
+
+178
+00:05:48,319 --> 00:05:51,440
+it back for a second minute so that the
+
+179
+00:05:49,960 --> 00:05:53,240
+heating is more even and it doesn't
+
+180
+00:05:51,440 --> 00:05:55,039
+cause the creation of these toxins and
+
+181
+00:05:53,240 --> 00:05:56,400
+second obviously I'm not going to insult
+
+182
+00:05:55,039 --> 00:05:58,440
+your intelligence you already know not
+
+183
+00:05:56,400 --> 00:06:00,000
+to use Plastics in the microwave oven so
+
+184
+00:05:58,440 --> 00:06:01,960
+let's just leave it at that and here's
+
+185
+00:06:00,000 --> 00:06:04,039
+another thing so on this channel I've
+
+186
+00:06:01,960 --> 00:06:05,600
+always taken the science of things but
+
+187
+00:06:04,039 --> 00:06:08,000
+I've also always looked at the context
+
+188
+00:06:05,600 --> 00:06:09,639
+the history of stuff so when you look at
+
+189
+00:06:08,000 --> 00:06:11,400
+the microwave and you realize that the
+
+190
+00:06:09,639 --> 00:06:14,720
+biggest impact it had is not the
+
+191
+00:06:11,400 --> 00:06:16,840
+toxicity it's actually the social impact
+
+192
+00:06:14,720 --> 00:06:18,880
+it had an impact on the family structure
+
+193
+00:06:16,840 --> 00:06:20,960
+the family tradition so when I was a kid
+
+194
+00:06:18,880 --> 00:06:23,080
+there was no option of a microwave oven
+
+195
+00:06:20,960 --> 00:06:24,639
+the food was hot when it was prepared as
+
+196
+00:06:23,080 --> 00:06:26,759
+soon as my mom had the food ready she
+
+197
+00:06:24,639 --> 00:06:28,759
+would call us down me my father my
+
+198
+00:06:26,759 --> 00:06:30,479
+sibling we would join her and have a
+
+199
+00:06:28,759 --> 00:06:32,199
+dinner together the microwave oven
+
+200
+00:06:30,479 --> 00:06:33,160
+changes that it makes it such that
+
+201
+00:06:32,199 --> 00:06:34,639
+people can have their meals
+
+202
+00:06:33,160 --> 00:06:36,400
+independently they can just go grab
+
+203
+00:06:34,639 --> 00:06:38,199
+their food from the fridge heat it up
+
+204
+00:06:36,400 --> 00:06:40,560
+and have it at their own time this
+
+205
+00:06:38,199 --> 00:06:42,479
+concept of having meals alone is not
+
+206
+00:06:40,560 --> 00:06:44,160
+human it's not natural the microwave
+
+207
+00:06:42,479 --> 00:06:46,440
+oven has pulled families apart by
+
+208
+00:06:44,160 --> 00:06:48,240
+destroying a central family tradition of
+
+209
+00:06:46,440 --> 00:06:50,199
+having meals together and this happened
+
+210
+00:06:48,240 --> 00:06:52,120
+at the same time as when both parents
+
+211
+00:06:50,199 --> 00:06:54,000
+had to work in order to make ends meat
+
+212
+00:06:52,120 --> 00:06:55,639
+and children spent far more time in
+
+213
+00:06:54,000 --> 00:06:57,800
+their penitentiaries which they call the
+
+214
+00:06:55,639 --> 00:06:59,599
+public school system instead of playing
+
+215
+00:06:57,800 --> 00:07:01,319
+and enjoying nature being with their
+
+216
+00:06:59,599 --> 00:07:02,440
+parents being with siblings and friends
+
+217
+00:07:01,319 --> 00:07:03,879
+but I suppose that's a topic for a
+
+218
+00:07:02,440 --> 00:07:05,720
+different video I do absolutely want to
+
+219
+00:07:03,879 --> 00:07:08,000
+make a video on the education system and
+
+220
+00:07:05,720 --> 00:07:09,639
+how to essentially deprogram the wiring
+
+221
+00:07:08,000 --> 00:07:11,360
+which they gave us so here's a challenge
+
+222
+00:07:09,639 --> 00:07:13,520
+to you if you're so invested in
+
+223
+00:07:11,360 --> 00:07:15,000
+improving your life and avoiding toxins
+
+224
+00:07:13,520 --> 00:07:17,400
+the first step you can do to really make
+
+225
+00:07:15,000 --> 00:07:19,479
+your life better is to fix your family
+
+226
+00:07:17,400 --> 00:07:20,919
+relationships call your mom call your
+
+227
+00:07:19,479 --> 00:07:22,759
+dad call your grandparents actually
+
+228
+00:07:20,919 --> 00:07:25,400
+schedule a reminder on your phone like
+
+229
+00:07:22,759 --> 00:07:27,199
+for for real this is a high Roi task
+
+230
+00:07:25,400 --> 00:07:28,759
+schedule a reminder on your phone for
+
+231
+00:07:27,199 --> 00:07:30,240
+every single week you talk to your
+
+232
+00:07:28,759 --> 00:07:32,680
+grandparents and parents at least once a
+
+233
+00:07:30,240 --> 00:07:34,400
+week Imagine the health benefits that
+
+234
+00:07:32,680 --> 00:07:36,160
+they're going to receive their stress is
+
+235
+00:07:34,400 --> 00:07:37,960
+going to go lower which genuinely has
+
+236
+00:07:36,160 --> 00:07:39,840
+physiological effects on their body the
+
+237
+00:07:37,960 --> 00:07:41,280
+most honorable things you can do is to
+
+238
+00:07:39,840 --> 00:07:43,360
+take care of your parents and honor your
+
+239
+00:07:41,280 --> 00:07:47,080
+ancestors and that's far more important
+
+240
+00:07:43,360 --> 00:07:47,080
+than being scared of a microwave of them
+

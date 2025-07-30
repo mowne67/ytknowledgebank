@@ -1,0 +1,10 @@
+google-generativeai
+langchain
+langchain-experimental
+langchain-google-genai
+langgraph
+pydantic
+python-dotenv
+pandas
+seaborn
+yt-dlp

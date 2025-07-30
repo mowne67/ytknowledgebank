@@ -1,0 +1,15 @@
+The "mouse utopia experiments," conducted in the 1950s and 1970s, aimed to study the effects of overpopulation in an ideal environment. Nine mice were placed in a large enclosure designed to comfortably house 6,000 mice, providing perfect temperature, infinite food, and no diseases.
+
+Initially, the mouse population doubled every 55 days. However, the population never reached the enclosure's capacity of 6,000. Instead, it peaked at 2,000 mice and then began a continuous decline, eventually leading to extinction.
+
+This phenomenon was attributed to "behavioral sink," where the mice's behaviors changed as the population increased and resources became abundant, removing the need for struggle or fear. Specifically, male mice started exhibiting behaviors and hormonal states more akin to female mice, while female mice became more aggressive and displayed hormonal changes.
+
+A notable development was the emergence of "beautiful ones" among the male mice. These young, otherwise healthy males, who should have been seeking mates, instead isolated themselves and focused intensely on grooming and self-beautification, showing no interest in female mice—a behavior described as pure narcissism.
+
+This observation is then paralleled with the "looksmaxing" movement among humans. While looksmaxing initially focused on attracting women, it has evolved, particularly with the rise of the "black pill" philosophy, to prioritize physical appearance above all else, including social skills or behavior. The movement began with basic self-improvement (gym, hair, fashion, hygiene) but progressed to more extreme practices. "Mewing," a technique to alter facial structure, became widely known. Predictions are made that more extreme forms of looksmaxing, such as "bone smashing" and "height maxing" (surgical leg lengthening), will become more common. Height maxing is criticized as sacrificing athletic performance for appearance.
+
+This focus on appearance is linked to dating apps, where interactions are primarily based on profile pictures. The argument is made that men on these apps are "ensnared by the female gaze," becoming like the "beautiful ones" in the mouse study who prioritize self-grooming over reproduction.
+
+Historical parallels are drawn to the Roman Empire, suggesting that later emperors, described as "twinks" or mentally unstable, contributed to the empire's decline, implying a similar societal shift.
+
+The current societal phenomena, like extreme looksmaxing, are attributed to information and stimulation overload. A recommendation is made to reduce content consumption and to select a limited number of trusted influencers in specific areas (e.g., wealth, health, relationships). More importantly, the emphasis is placed on self-experimentation and developing the ability to discern truth independently.

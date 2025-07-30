@@ -1,0 +1,1200 @@
+1
+00:00:00,080 --> 00:00:06,040
+the 8020 rule states that 80% of the
+
+2
+00:00:02,600 --> 00:00:08,360
+outcomes come from 20% of the causes it
+
+3
+00:00:06,040 --> 00:00:11,440
+works in theory but I found it hard to
+
+4
+00:00:08,360 --> 00:00:12,759
+use in practice the promise of the 8020
+
+5
+00:00:11,440 --> 00:00:14,759
+rule is that if you could figure out
+
+6
+00:00:12,759 --> 00:00:17,840
+just the 20% of the stuff that actually
+
+7
+00:00:14,759 --> 00:00:20,359
+matters you can get away by doing just
+
+8
+00:00:17,840 --> 00:00:24,400
+that however it's not that easy it's
+
+9
+00:00:20,359 --> 00:00:26,720
+hard to know what 20% is the right 20%
+
+10
+00:00:24,400 --> 00:00:29,000
+for example let's take any complex task
+
+11
+00:00:26,720 --> 00:00:32,000
+let's say I want to make a YouTube video
+
+12
+00:00:29,000 --> 00:00:34,680
+what's the 8020 on that is it the title
+
+13
+00:00:32,000 --> 00:00:37,360
+is it the thumbnail the hook is it the
+
+14
+00:00:34,680 --> 00:00:40,280
+camera is it the audio is it the actual
+
+15
+00:00:37,360 --> 00:00:42,160
+words I say is it my camera presence is
+
+16
+00:00:40,280 --> 00:00:43,960
+it the topic that I choose all of these
+
+17
+00:00:42,160 --> 00:00:46,960
+seem important if I was to impose the
+
+18
+00:00:43,960 --> 00:00:49,800
+8020 rule which of these would represent
+
+19
+00:00:46,960 --> 00:00:51,640
+that magic 20% that gets the result I
+
+20
+00:00:49,800 --> 00:00:53,359
+don't know I'll use another example
+
+21
+00:00:51,640 --> 00:00:55,399
+let's say we want to get into shape we
+
+22
+00:00:53,359 --> 00:00:57,920
+need gym membership we need maybe
+
+23
+00:00:55,399 --> 00:00:59,519
+supplements better food better sleep
+
+24
+00:00:57,920 --> 00:01:02,120
+like I can make a long list of things
+
+25
+00:00:59,519 --> 00:01:04,320
+which you need to get the physique that
+
+26
+00:01:02,120 --> 00:01:06,920
+you want the purpose of the 8020 rule is
+
+27
+00:01:04,320 --> 00:01:08,880
+to reduce complexity I think it does do
+
+28
+00:01:06,920 --> 00:01:10,680
+a good job of that except that I needed
+
+29
+00:01:08,880 --> 00:01:12,439
+a little bit more structure before I
+
+30
+00:01:10,680 --> 00:01:14,479
+could personally take the actionable
+
+31
+00:01:12,439 --> 00:01:15,960
+steps required to get outcomes at the
+
+32
+00:01:14,479 --> 00:01:18,360
+end of the day I only care about
+
+33
+00:01:15,960 --> 00:01:20,960
+outcomes I do not seek to entertain you
+
+34
+00:01:18,360 --> 00:01:23,000
+or even educate you I'm going to share
+
+35
+00:01:20,960 --> 00:01:25,200
+with you a quick and easy mental model
+
+36
+00:01:23,000 --> 00:01:28,240
+that serves me better than the 8020 rule
+
+37
+00:01:25,200 --> 00:01:31,360
+does I use something called the 93 rule
+
+38
+00:01:28,240 --> 00:01:34,079
+or simply The Big Three rule the 93 rule
+
+39
+00:01:31,360 --> 00:01:36,960
+states that 90% of the outcomes come
+
+40
+00:01:34,079 --> 00:01:39,880
+from the top three causes so another way
+
+41
+00:01:36,960 --> 00:01:41,759
+of stating it would be what three sub
+
+42
+00:01:39,880 --> 00:01:44,040
+problems do you need to solve in order
+
+43
+00:01:41,759 --> 00:01:45,719
+to solve the main problem let's do some
+
+44
+00:01:44,040 --> 00:01:48,159
+examples let's say I want to create a
+
+45
+00:01:45,719 --> 00:01:50,640
+YouTube video what three problems do I
+
+46
+00:01:48,159 --> 00:01:52,640
+need to solve it's going to be packaging
+
+47
+00:01:50,640 --> 00:01:55,520
+script and topic there are other things
+
+48
+00:01:52,640 --> 00:01:58,600
+to be sure like audio or video quality
+
+49
+00:01:55,520 --> 00:02:01,360
+but without these three nothing else
+
+50
+00:01:58,600 --> 00:02:04,079
+matters and here's the cool part The Big
+
+51
+00:02:01,360 --> 00:02:06,039
+Three rule is inherently hierarchical
+
+52
+00:02:04,079 --> 00:02:07,880
+and you can use it recursively I'll
+
+53
+00:02:06,039 --> 00:02:09,879
+explain what I mean by that what this
+
+54
+00:02:07,880 --> 00:02:12,080
+means is now you can hit the sub
+
+55
+00:02:09,879 --> 00:02:14,360
+problems with the big three Hammer again
+
+56
+00:02:12,080 --> 00:02:16,640
+to reveal these smaller sub problems
+
+57
+00:02:14,360 --> 00:02:19,480
+which you can now solve what's the big
+
+58
+00:02:16,640 --> 00:02:21,640
+three on packaging oh it's thumbnail
+
+59
+00:02:19,480 --> 00:02:23,400
+it's title and the hook cool we can
+
+60
+00:02:21,640 --> 00:02:25,360
+solve those there's tutorials on YouTube
+
+61
+00:02:23,400 --> 00:02:28,000
+to make good thumbnails titles and hooks
+
+62
+00:02:25,360 --> 00:02:30,160
+what's the big three on the topic Choice
+
+63
+00:02:28,000 --> 00:02:32,080
+well again it's timeliness its
+
+64
+00:02:30,160 --> 00:02:34,560
+importance and its relevance to the
+
+65
+00:02:32,080 --> 00:02:36,400
+audience you can research and fix each
+
+66
+00:02:34,560 --> 00:02:39,040
+of these in order to solve the main
+
+67
+00:02:36,400 --> 00:02:41,280
+problem suddenly the strategy the action
+
+68
+00:02:39,040 --> 00:02:43,440
+steps become more clear to you because
+
+69
+00:02:41,280 --> 00:02:45,440
+you've broken the problem down into
+
+70
+00:02:43,440 --> 00:02:47,440
+manageable components now I take zero
+
+71
+00:02:45,440 --> 00:02:50,120
+credit for this rule I'm not sure when I
+
+72
+00:02:47,440 --> 00:02:52,200
+started using it but hey I thought it
+
+73
+00:02:50,120 --> 00:02:54,360
+was useful so now I'm giving it to you
+
+74
+00:02:52,200 --> 00:02:57,360
+you can even apply the big three rule to
+
+75
+00:02:54,360 --> 00:03:00,000
+behavior what's the big three on camera
+
+76
+00:02:57,360 --> 00:03:02,280
+presence okay it's eye contact it's it's
+
+77
+00:03:00,000 --> 00:03:03,879
+Clarity of speech and perhaps it's also
+
+78
+00:03:02,280 --> 00:03:06,000
+hand gestures right each of these is a
+
+79
+00:03:03,879 --> 00:03:07,959
+trainable Behavior each of these I can
+
+80
+00:03:06,000 --> 00:03:10,599
+train somebody to replicate now let's
+
+81
+00:03:07,959 --> 00:03:14,720
+apply this technique to an even bigger
+
+82
+00:03:10,599 --> 00:03:17,319
+question what makes a good Lifestyle the
+
+83
+00:03:14,720 --> 00:03:19,599
+triangle of lifestyle is health wealth
+
+84
+00:03:17,319 --> 00:03:22,480
+and relationships the big three on
+
+85
+00:03:19,599 --> 00:03:24,440
+health is nutrition exercise and
+
+86
+00:03:22,480 --> 00:03:26,440
+Recovery the big three on wealth is
+
+87
+00:03:24,440 --> 00:03:29,000
+going to be income investment and
+
+88
+00:03:26,440 --> 00:03:31,120
+spending the big three on relationships
+
+89
+00:03:29,000 --> 00:03:33,480
+is going to be friends family and female
+
+90
+00:03:31,120 --> 00:03:36,159
+attraction you can solve wealth if you
+
+91
+00:03:33,480 --> 00:03:38,280
+increase income increase investment and
+
+92
+00:03:36,159 --> 00:03:40,680
+decrease spending you have solved
+
+93
+00:03:38,280 --> 00:03:43,000
+relationships if you build friendships
+
+94
+00:03:40,680 --> 00:03:44,959
+have family ties and build female
+
+95
+00:03:43,000 --> 00:03:48,599
+attraction but now you're thinking well
+
+96
+00:03:44,959 --> 00:03:50,640
+it's easier said than done right exactly
+
+97
+00:03:48,599 --> 00:03:52,720
+I never said it would be easy I said it
+
+98
+00:03:50,640 --> 00:03:54,560
+would be simple those are not the same
+
+99
+00:03:52,720 --> 00:03:56,319
+things but the good thing is the big
+
+100
+00:03:54,560 --> 00:03:58,599
+three rule allows you to break things
+
+101
+00:03:56,319 --> 00:04:00,280
+down until you have a clear actionable
+
+102
+00:03:58,599 --> 00:04:01,640
+step so let's go into health I said the
+
+103
+00:04:00,280 --> 00:04:04,000
+first of the big three on health is
+
+104
+00:04:01,640 --> 00:04:06,360
+nutrition but what's the big three on
+
+105
+00:04:04,000 --> 00:04:08,159
+nutrition in other words what three
+
+106
+00:04:06,360 --> 00:04:11,840
+problems do you need to solve in order
+
+107
+00:04:08,159 --> 00:04:15,920
+to solve 90% of nutrition well you need
+
+108
+00:04:11,840 --> 00:04:18,359
+to answer what to eat you need to answer
+
+109
+00:04:15,920 --> 00:04:21,079
+how much to eat you need to answer when
+
+110
+00:04:18,359 --> 00:04:22,800
+to eat if you solve these three problems
+
+111
+00:04:21,079 --> 00:04:25,400
+you have solved nutrition let's do
+
+112
+00:04:22,800 --> 00:04:28,320
+another example what's the big three on
+
+113
+00:04:25,400 --> 00:04:31,240
+exercise it's consistency Progressive
+
+114
+00:04:28,320 --> 00:04:34,199
+overload and injury prevention if you do
+
+115
+00:04:31,240 --> 00:04:36,759
+these three you're good you'll 100% see
+
+116
+00:04:34,199 --> 00:04:39,800
+results if you just focus on these three
+
+117
+00:04:36,759 --> 00:04:41,680
+aspects of exercise now let's go to a
+
+118
+00:04:39,800 --> 00:04:44,600
+different part of this what's the big
+
+119
+00:04:41,680 --> 00:04:47,240
+three on income I'm a business owner so
+
+120
+00:04:44,600 --> 00:04:50,280
+for me it's going to be Marketing sales
+
+121
+00:04:47,240 --> 00:04:52,800
+and delivery as in I get people to see
+
+122
+00:04:50,280 --> 00:04:54,479
+who I am that's called marketing I show
+
+123
+00:04:52,800 --> 00:04:56,840
+people that I can solve a problem that
+
+124
+00:04:54,479 --> 00:04:58,400
+they have that's called sales and I
+
+125
+00:04:56,840 --> 00:05:00,320
+actually solve those problems that's
+
+126
+00:04:58,400 --> 00:05:02,720
+called delivery if I do do just these
+
+127
+00:05:00,320 --> 00:05:04,440
+three things at a high level I'm good I
+
+128
+00:05:02,720 --> 00:05:08,000
+don't have to worry about income if I
+
+129
+00:05:04,440 --> 00:05:10,160
+execute on these three aspects of income
+
+130
+00:05:08,000 --> 00:05:12,080
+at the same time if I [ __ ] up on any of
+
+131
+00:05:10,160 --> 00:05:14,440
+these then I'm screwed the big three
+
+132
+00:05:12,080 --> 00:05:16,680
+rule is derived from a method called me
+
+133
+00:05:14,440 --> 00:05:19,000
+which was created by the world's biggest
+
+134
+00:05:16,680 --> 00:05:21,720
+consulting company called McKenzie it
+
+135
+00:05:19,000 --> 00:05:23,960
+stands for mutually exclusive
+
+136
+00:05:21,720 --> 00:05:26,520
+collectively exhaustive let's talk about
+
+137
+00:05:23,960 --> 00:05:28,240
+the mutually exclusive part mutually
+
+138
+00:05:26,520 --> 00:05:30,000
+exclusive means that there are no
+
+139
+00:05:28,240 --> 00:05:32,080
+crossovers between the sub Parts when
+
+140
+00:05:30,000 --> 00:05:34,680
+you break down the hole in the ideal
+
+141
+00:05:32,080 --> 00:05:36,240
+case each subpart is its own problem
+
+142
+00:05:34,680 --> 00:05:38,880
+that does not interact with other
+
+143
+00:05:36,240 --> 00:05:40,520
+problems now this isn't always perfect
+
+144
+00:05:38,880 --> 00:05:42,560
+for example if you break down Health
+
+145
+00:05:40,520 --> 00:05:45,160
+into nutrition exercise and Recovery you
+
+146
+00:05:42,560 --> 00:05:48,080
+of course know that a bad diet can
+
+147
+00:05:45,160 --> 00:05:50,199
+affect exercise and bad exercise can
+
+148
+00:05:48,080 --> 00:05:52,000
+affect recovery just because there are
+
+149
+00:05:50,199 --> 00:05:54,520
+some crossovers doesn't mean you can't
+
+150
+00:05:52,000 --> 00:05:56,520
+use the rule just be smart and try to
+
+151
+00:05:54,520 --> 00:05:58,280
+minimize not eliminate these
+
+152
+00:05:56,520 --> 00:06:00,680
+interactions the second part is
+
+153
+00:05:58,280 --> 00:06:02,759
+collectively exhaustive collectively
+
+154
+00:06:00,680 --> 00:06:05,600
+exhaustive means that if the subp parts
+
+155
+00:06:02,759 --> 00:06:08,160
+of the hole are added up they represent
+
+156
+00:06:05,600 --> 00:06:10,240
+100% of the hole this is where the big
+
+157
+00:06:08,160 --> 00:06:12,400
+three rule diverges from the traditional
+
+158
+00:06:10,240 --> 00:06:14,120
+me method the traditional me method
+
+159
+00:06:12,400 --> 00:06:16,680
+requires that the hole is broken down
+
+160
+00:06:14,120 --> 00:06:20,240
+into as many parts as it takes until we
+
+161
+00:06:16,680 --> 00:06:22,599
+can be sure that the parts can be added
+
+162
+00:06:20,240 --> 00:06:24,720
+up to recreate the hole for the kind of
+
+163
+00:06:22,599 --> 00:06:26,680
+Consulting work that mckenzi does this
+
+164
+00:06:24,720 --> 00:06:28,880
+makes a lot of sense but for what we are
+
+165
+00:06:26,680 --> 00:06:31,080
+going to use this for we don't need all
+
+166
+00:06:28,880 --> 00:06:33,560
+the parts let me explain this is because
+
+167
+00:06:31,080 --> 00:06:35,360
+most complexity follows a power law
+
+168
+00:06:33,560 --> 00:06:38,120
+distribution meaning when you start
+
+169
+00:06:35,360 --> 00:06:40,240
+breaking down a problem the first chunk
+
+170
+00:06:38,120 --> 00:06:42,319
+represents a very large part of the
+
+171
+00:06:40,240 --> 00:06:44,599
+initial problem the second chunk might
+
+172
+00:06:42,319 --> 00:06:46,479
+be big as well but it is smaller than
+
+173
+00:06:44,599 --> 00:06:48,680
+the first the third chunk is a bit
+
+174
+00:06:46,479 --> 00:06:50,360
+smaller but still significant the fourth
+
+175
+00:06:48,680 --> 00:06:51,840
+chunk the fifth chunk and so on are
+
+176
+00:06:50,360 --> 00:06:53,360
+going to be smaller and smaller and
+
+177
+00:06:51,840 --> 00:06:55,039
+smaller they're going to matter less and
+
+178
+00:06:53,360 --> 00:06:56,720
+less so I'd rather focus on the big
+
+179
+00:06:55,039 --> 00:06:58,879
+three that I need to get right and then
+
+180
+00:06:56,720 --> 00:07:01,360
+I can move on to the smaller problems me
+
+181
+00:06:58,879 --> 00:07:03,080
+requires you to get all the chunks but
+
+182
+00:07:01,360 --> 00:07:05,280
+the big three rule requires that you
+
+183
+00:07:03,080 --> 00:07:07,080
+find just the biggest three chunks
+
+184
+00:07:05,280 --> 00:07:09,160
+that's the difference even so there is a
+
+185
+00:07:07,080 --> 00:07:11,720
+potential problem that you will face how
+
+186
+00:07:09,160 --> 00:07:13,360
+many recursions of the big three rule do
+
+187
+00:07:11,720 --> 00:07:15,560
+you need to do now what do I mean by
+
+188
+00:07:13,360 --> 00:07:18,000
+that when we had health as a complex
+
+189
+00:07:15,560 --> 00:07:20,319
+topic we broke it down into nutrition
+
+190
+00:07:18,000 --> 00:07:21,960
+exercise and Recovery when we broke
+
+191
+00:07:20,319 --> 00:07:24,599
+exercise I broke it down into
+
+192
+00:07:21,960 --> 00:07:27,400
+consistency Progressive overload and
+
+193
+00:07:24,599 --> 00:07:29,080
+injury prevention but even these are too
+
+194
+00:07:27,400 --> 00:07:30,800
+big there's too much complexity it
+
+195
+00:07:29,080 --> 00:07:33,280
+doesn't lead to an actionable step we
+
+196
+00:07:30,800 --> 00:07:35,160
+need to keep breaking it down we break
+
+197
+00:07:33,280 --> 00:07:38,160
+it down until we reach actionable steps
+
+198
+00:07:35,160 --> 00:07:41,199
+for example let's break down consistency
+
+199
+00:07:38,160 --> 00:07:43,240
+what is consistency it means essentially
+
+200
+00:07:41,199 --> 00:07:46,199
+you're working out for weeks and months
+
+201
+00:07:43,240 --> 00:07:48,000
+and years if we break that down we
+
+202
+00:07:46,199 --> 00:07:50,639
+realize we're already consistent with
+
+203
+00:07:48,000 --> 00:07:52,879
+many habits we brush our teeth every day
+
+204
+00:07:50,639 --> 00:07:54,759
+we shower every day and most of us pull
+
+205
+00:07:52,879 --> 00:07:56,400
+up Instagram or social media every day
+
+206
+00:07:54,759 --> 00:07:58,039
+here's the cool part all of these are
+
+207
+00:07:56,400 --> 00:07:59,159
+learned behaviors you learn to brush
+
+208
+00:07:58,039 --> 00:08:01,440
+your teeth consistently because your
+
+209
+00:07:59,159 --> 00:08:02,919
+parents provided you the accountability
+
+210
+00:08:01,440 --> 00:08:04,639
+when you were little we shower
+
+211
+00:08:02,919 --> 00:08:07,159
+consistently because we don't want to be
+
+212
+00:08:04,639 --> 00:08:09,599
+seen as a smelly person in other words
+
+213
+00:08:07,159 --> 00:08:11,840
+we want hygiene to be a part of our
+
+214
+00:08:09,599 --> 00:08:13,840
+identity we get on Instagram
+
+215
+00:08:11,840 --> 00:08:15,840
+consistently because the app is designed
+
+216
+00:08:13,840 --> 00:08:18,400
+in a way to inject a reward into our
+
+217
+00:08:15,840 --> 00:08:20,080
+brain if we apply the big three
+
+218
+00:08:18,400 --> 00:08:23,479
+consistency breaks down into
+
+219
+00:08:20,080 --> 00:08:25,319
+accountability identity and reward now
+
+220
+00:08:23,479 --> 00:08:26,960
+we have something we can work with now
+
+221
+00:08:25,319 --> 00:08:29,759
+we have the ingredients to create a
+
+222
+00:08:26,960 --> 00:08:31,159
+system that delivers each of these now
+
+223
+00:08:29,759 --> 00:08:33,680
+we have something that we can bring
+
+224
+00:08:31,159 --> 00:08:36,320
+change not only to ourselves but to
+
+225
+00:08:33,680 --> 00:08:39,240
+others is using such principles that I
+
+226
+00:08:36,320 --> 00:08:42,399
+have created Crusade now coming back to
+
+227
+00:08:39,240 --> 00:08:46,360
+the big three rule why does it work as
+
+228
+00:08:42,399 --> 00:08:49,120
+Julius Caesar said DV day at impera
+
+229
+00:08:46,360 --> 00:08:50,959
+divide and conquer essentially The Big
+
+230
+00:08:49,120 --> 00:08:53,000
+Three rule allows you to divide and
+
+231
+00:08:50,959 --> 00:08:55,360
+conquer your problems in the same way
+
+232
+00:08:53,000 --> 00:08:58,320
+that Julius Caesar divided and conquered
+
+233
+00:08:55,360 --> 00:09:01,000
+Gaul which as you know culminated in the
+
+234
+00:08:58,320 --> 00:09:04,560
+Epic Siege at Alysia when Caesar was
+
+235
+00:09:01,000 --> 00:09:06,839
+besieging the GS he was in turn besieged
+
+236
+00:09:04,560 --> 00:09:09,200
+by the GS it was a double encirclement
+
+237
+00:09:06,839 --> 00:09:11,240
+there was the GS in the center Caesar
+
+238
+00:09:09,200 --> 00:09:15,000
+surrounded them and then he himself was
+
+239
+00:09:11,240 --> 00:09:17,000
+surrounded by a huge Army of GS in this
+
+240
+00:09:15,000 --> 00:09:19,519
+terrible position where you have enemies
+
+241
+00:09:17,000 --> 00:09:21,800
+on the inside and the outside Caesar
+
+242
+00:09:19,519 --> 00:09:23,920
+decided that there was three things that
+
+243
+00:09:21,800 --> 00:09:26,320
+he could not let slip otherwise it all
+
+244
+00:09:23,920 --> 00:09:28,680
+goes to [ __ ] number one was the
+
+245
+00:09:26,320 --> 00:09:31,959
+fortifications of the Legion if the
+
+246
+00:09:28,680 --> 00:09:34,800
+walls broke the legion would be crushed
+
+247
+00:09:31,959 --> 00:09:36,360
+number two was the supplies if Caesar
+
+248
+00:09:34,800 --> 00:09:38,279
+didn't have supplies we didn't manage
+
+249
+00:09:36,360 --> 00:09:41,519
+Logistics he would be killed by
+
+250
+00:09:38,279 --> 00:09:44,160
+starvation instead of Spears the third
+
+251
+00:09:41,519 --> 00:09:46,680
+was the morale of the troops Caesar
+
+252
+00:09:44,160 --> 00:09:49,160
+himself led the charge in the fighting
+
+253
+00:09:46,680 --> 00:09:51,000
+because he knew that his presence would
+
+254
+00:09:49,160 --> 00:09:53,040
+light the troops on fire and they would
+
+255
+00:09:51,000 --> 00:09:56,160
+not back down so long as he doesn't back
+
+256
+00:09:53,040 --> 00:09:59,760
+down if you read the GIC Wars Caesar
+
+257
+00:09:56,160 --> 00:10:02,320
+used the big twe rule be like Caesar
+
+258
+00:09:59,760 --> 00:10:04,680
+sadly we are 2,000 years too late to
+
+259
+00:10:02,320 --> 00:10:07,720
+join Caesar's Legion but hey you might
+
+260
+00:10:04,680 --> 00:10:10,000
+be in time to join mine if you found the
+
+261
+00:10:07,720 --> 00:10:12,959
+big three rule useful you need to apply
+
+262
+00:10:10,000 --> 00:10:14,680
+it now so you can learn it forever try
+
+263
+00:10:12,959 --> 00:10:16,839
+to apply the big three rule to something
+
+264
+00:10:14,680 --> 00:10:18,839
+in your life right now in the comment
+
+265
+00:10:16,839 --> 00:10:20,880
+section so I want you to comment below
+
+266
+00:10:18,839 --> 00:10:22,279
+your big three analysis of any topic
+
+267
+00:10:20,880 --> 00:10:24,600
+that you choose let me even give you
+
+268
+00:10:22,279 --> 00:10:26,399
+some quick examples to show you how wide
+
+269
+00:10:24,600 --> 00:10:29,079
+we can go with this stuff what's the big
+
+270
+00:10:26,399 --> 00:10:30,240
+three on driving a car safely well it's
+
+271
+00:10:29,079 --> 00:10:31,839
+going to be going to be control it's
+
+272
+00:10:30,240 --> 00:10:33,240
+going to be attention and it's going to
+
+273
+00:10:31,839 --> 00:10:35,120
+be the speed at which you drive what's
+
+274
+00:10:33,240 --> 00:10:37,720
+the big three on looking good in your
+
+275
+00:10:35,120 --> 00:10:39,440
+clothes well it's going to be fit for
+
+276
+00:10:37,720 --> 00:10:41,440
+obvious reasons it's going to be the
+
+277
+00:10:39,440 --> 00:10:42,920
+quality of your clothes again for
+
+278
+00:10:41,440 --> 00:10:44,880
+obvious reasons and it's going to be
+
+279
+00:10:42,920 --> 00:10:47,200
+congruence as in the style should be
+
+280
+00:10:44,880 --> 00:10:49,839
+congruent with your persona I wear well
+
+281
+00:10:47,200 --> 00:10:52,079
+ironed polos I wear high quality wi
+
+282
+00:10:49,839 --> 00:10:54,079
+necks I wear black jeans I wear
+
+283
+00:10:52,079 --> 00:10:56,519
+accessories like my Seiko alpinist I
+
+284
+00:10:54,079 --> 00:10:58,519
+wear my personel sunglasses you know I'm
+
+285
+00:10:56,519 --> 00:11:00,040
+going for a classy sophisticated look
+
+286
+00:10:58,519 --> 00:11:01,800
+which makes sense for me because that's
+
+287
+00:11:00,040 --> 00:11:03,440
+how I want to present myself to the
+
+288
+00:11:01,800 --> 00:11:04,880
+world that's what resonates with me
+
+289
+00:11:03,440 --> 00:11:07,440
+you'll never catch me in oversized
+
+290
+00:11:04,880 --> 00:11:09,079
+t-shirts or Street Wear it's not that
+
+291
+00:11:07,440 --> 00:11:11,040
+that's wrong it just means it's not
+
+292
+00:11:09,079 --> 00:11:12,440
+congruent with my style regardless we're
+
+293
+00:11:11,040 --> 00:11:14,560
+getting off topic let me give you the
+
+294
+00:11:12,440 --> 00:11:16,440
+homework here's the homework for today
+
+295
+00:11:14,560 --> 00:11:18,079
+I'm going to drop a list of topics in
+
+296
+00:11:16,440 --> 00:11:19,920
+the comment Bonus Goes to the most
+
+297
+00:11:18,079 --> 00:11:21,920
+useful breakdown and the funniest
+
+298
+00:11:19,920 --> 00:11:24,160
+breakdown and remember if you do not
+
+299
+00:11:21,920 --> 00:11:27,519
+sacrifice for your dreams your dreams
+
+300
+00:11:24,160 --> 00:11:27,519
+become the sacrifice
+
