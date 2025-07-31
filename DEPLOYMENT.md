@@ -7,15 +7,15 @@
 - **Solution**: Removed `chrome_url_overrides` from manifest.json
 - **Result**: New tab page is no longer affected by the extension
 
-### 2. Render Sign-in Error (BOT DETECTION)
+### 2. Render Sign-in Error (BOT DETECTION) - FIXED ✅
 - **Problem**: YouTube detecting requests as bot and requiring authentication
-- **Solution**: Implemented multi-layered fallback system with multiple authentication methods
+- **Solution**: Implemented environment-aware yt-dlp with optimized bot avoidance
 - **Changes Made**:
-  - Enhanced yt-dlp with multiple authentication approaches (Chrome/Firefox cookies, different user agents)
-  - Added YouTube Transcript API fallback (most reliable for transcripts)
-  - Added YouTube Data API fallback as secondary option
-  - Improved error handling and retry mechanisms
-  - Added health check endpoint
+  - **Environment Detection**: Automatically detects deployment vs local environments
+  - **Smart Cookie Handling**: Skips cookie-based approaches on deployment (no browser cookies available)
+  - **Optimized User Agents**: Uses mobile and desktop user agents that work better on servers
+  - **Enhanced Headers**: Multiple approaches to avoid bot detection
+  - **Improved Error Handling**: Better logging and retry mechanisms
 
 ## Deployment Steps
 
@@ -28,7 +28,6 @@
 1. Ensure your Render app has the following environment variables:
    ```
    PYTHON_VERSION=3.9
-   YOUTUBE_API_KEY=your_youtube_api_key_here  # Optional, for Data API fallback
    ```
 2. The app will automatically install dependencies from `requirements.txt`
 3. Render will use the `main.py` file as the entry point
@@ -44,30 +43,30 @@
    - Click the extension icon
    - Verify it works with both local and production URLs
 
-### 4. Authentication Fallback System
+### 4. Authentication Fallback System (SIMPLIFIED)
 
-The system now uses a multi-layered approach to handle YouTube authentication:
+The system now uses intelligent environment detection with optimized yt-dlp approaches:
 
-1. **Primary**: yt-dlp with multiple authentication methods
-   - Chrome browser cookies
-   - Firefox browser cookies
-   - Enhanced headers with different user agents
-   - Mobile user agent
+#### **Deployment Environment (Render/Heroku/Railway)**
+1. **Primary**: Mobile user agent (often works better on servers)
+2. **Secondary**: Desktop user agent with enhanced headers
+3. **Tertiary**: Simple user agent
+4. **Final**: Basic approach with Googlebot user agent
 
-2. **Secondary**: YouTube Transcript API (youtube-transcript-api)
-   - Most reliable for getting transcripts
-   - No authentication required
-   - Handles multiple languages automatically
+#### **Local Development Environment**
+1. **Primary**: yt-dlp with browser cookies (Chrome/Firefox)
+2. **Secondary**: Enhanced yt-dlp headers
+3. **Tertiary**: Mobile user agent
+4. **Final**: Basic approach
 
-3. **Tertiary**: YouTube Data API
-   - Requires API key
-   - Limited transcript access
-   - Good for video metadata
+### 5. Environment Detection
 
-4. **Final**: Minimal yt-dlp options
-   - Last resort with basic settings
+The system automatically detects the environment:
+- **Deployment**: Detects `RENDER`, `HEROKU`, `RAILWAY` env vars or `/opt/render` in path
+- **Local**: Uses cookie-based approaches first
+- **Smart Fallback**: Skips cookie methods on deployment (no browser cookies available)
 
-### 5. Troubleshooting Render Issues
+### 6. Troubleshooting Render Issues
 
 If you still get sign-in errors on Render:
 
@@ -75,11 +74,11 @@ If you still get sign-in errors on Render:
 2. **Video Restrictions**: Some videos may require authentication
 3. **Rate Limiting**: YouTube may block requests from Render IPs
 4. **Alternative Solutions**:
-   - The YouTube Transcript API fallback should handle most cases
+   - Try different videos (some are more restrictive than others)
    - Consider using a different video hosting platform
    - Implement proxy rotation for Render
 
-### 6. Extension Features
+### 7. Extension Features
 
 - **New Tab Override**: Disabled by default (can be enabled in config.js)
 - **Environment Detection**: Automatically switches between local and production URLs
@@ -101,36 +100,53 @@ FEATURES: {
 - `POST /summarize` - Main summarization endpoint
 - `GET /health` - Health check for monitoring
 
-## Dependencies Added
+## Dependencies
 
-- `youtube-transcript-api` - For reliable transcript extraction
-- `requests` - For API calls in fallback methods
+- `yt-dlp` - For YouTube video processing
+- `fastapi` - Web framework
+- `loguru` - Logging
+- Other dependencies for AI summarization
 
 ## Common Issues and Solutions
 
-1. **"Sign in to confirm you're not a bot" error**: 
-   - The system will automatically try multiple fallback methods
-   - YouTube Transcript API should handle most cases
-   - Check logs to see which method succeeded
+1. **"could not find chrome cookies database" error**: 
+   - ✅ **FIXED**: System now detects deployment environment and skips cookie approaches
+   - Will automatically use optimized user agent approaches instead
 
-2. **"Authentication required" error**: 
+2. **"Sign in to confirm you're not a bot" error**: 
+   - ✅ **FIXED**: Multiple user agent approaches should handle this
+   - Mobile user agents often work better on servers
+
+3. **"Authentication required" error**: 
    - Video is restricted, try a different video
    - The fallback system should handle this automatically
 
-3. **"Video not found" error**: 
+4. **"Video not found" error**: 
    - Check if the video URL is valid
    - Video might be private or deleted
 
-4. **Extension not working**: 
+5. **Extension not working**: 
    - Check the API URL in config.js
    - Verify the Render deployment is working
 
-5. **New tab still affected**: 
+6. **New tab still affected**: 
    - Make sure you reloaded the extension after changes
 
 ## Performance Notes
 
-- The system will try multiple methods in sequence
-- YouTube Transcript API is the fastest and most reliable
-- yt-dlp methods may take longer but provide more metadata
-- Failed attempts are logged for debugging 
+- **Deployment**: Uses optimized user agent approaches (mobile first, then desktop)
+- **Local**: Tries cookie-based approaches first, then falls back to user agents
+- **Multiple attempts**: System tries different approaches automatically
+- **Failed attempts**: Logged for debugging with clear error messages
+
+## Expected Behavior
+
+When you deploy to Render, you should see:
+```
+Detected deployment environment, using optimized approach...
+Trying yt-dlp approach 1/3...
+Successfully extracted info for: [video title]
+Subtitles downloaded successfully using yt-dlp approach 1
+```
+
+Instead of the previous cookie database errors! 

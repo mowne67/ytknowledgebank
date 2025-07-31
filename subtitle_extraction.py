@@ -19,6 +19,12 @@ def download_youtube_subtitles(video_url, language='en', output_dir='subtitles')
     match = re.search(r'(?:v=|youtu.be/)([\w-]+)', video_url)
     video_id = match.group(1) if match else 'video'
 
+    # Detect if we're in a deployment environment (like Render)
+    is_deployment = os.getenv('RENDER') or os.getenv('HEROKU') or os.getenv('RAILWAY') or '/opt/render' in os.getcwd()
+    
+    if is_deployment:
+        print("Detected deployment environment, using optimized approach...")
+    
     # Set options for yt-dlp with better bot detection avoidance
     ydl_opts = {
         'writeautomaticsub': True,        # Download auto-generated subtitles if manual not available
@@ -42,8 +48,6 @@ def download_youtube_subtitles(video_url, language='en', output_dir='subtitles')
             'Connection': 'keep-alive',
             'Upgrade-Insecure-Requests': '1',
         },
-        # Add cookies support
-        'cookiesfrombrowser': ('chrome',),  # Try to use Chrome cookies
         # Additional options to avoid bot detection
         'extractor_retries': 3,
         'fragment_retries': 3,
@@ -52,32 +56,64 @@ def download_youtube_subtitles(video_url, language='en', output_dir='subtitles')
         'max_sleep_interval': 5,
     }
 
-    # Try multiple approaches to handle authentication
-    approaches = [
-        # Approach 1: Try with browser cookies
-        {'cookiesfrombrowser': ('chrome',)},
-        # Approach 2: Try with Firefox cookies
-        {'cookiesfrombrowser': ('firefox',)},
-        # Approach 3: Try without cookies but with enhanced headers
-        {'http_headers': {
-            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
-            'Accept-Language': 'en-US,en;q=0.9',
-            'Accept-Encoding': 'gzip, deflate, br',
-            'Sec-Ch-Ua': '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
-            'Sec-Ch-Ua-Mobile': '?0',
-            'Sec-Ch-Ua-Platform': '"macOS"',
-            'Sec-Fetch-Dest': 'document',
-            'Sec-Fetch-Mode': 'navigate',
-            'Sec-Fetch-Site': 'none',
-            'Sec-Fetch-User': '?1',
-            'Upgrade-Insecure-Requests': '1',
-        }},
-        # Approach 4: Try with mobile user agent
-        {'http_headers': {
-            'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Mobile/15E148 Safari/604.1',
-        }},
-    ]
+    # Define approaches based on environment
+    if is_deployment:
+        # For deployment, use more aggressive bot avoidance
+        approaches = [
+            # Approach 1: Mobile user agent (often works better on servers)
+            {'http_headers': {
+                'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Mobile/15E148 Safari/604.1',
+                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+                'Accept-Language': 'en-US,en;q=0.9',
+                'Accept-Encoding': 'gzip, deflate, br',
+            }},
+            # Approach 2: Desktop user agent with enhanced headers
+            {'http_headers': {
+                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+                'Accept-Language': 'en-US,en;q=0.9',
+                'Accept-Encoding': 'gzip, deflate, br',
+                'Sec-Ch-Ua': '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
+                'Sec-Ch-Ua-Mobile': '?0',
+                'Sec-Ch-Ua-Platform': '"macOS"',
+                'Sec-Fetch-Dest': 'document',
+                'Sec-Fetch-Mode': 'navigate',
+                'Sec-Fetch-Site': 'none',
+                'Sec-Fetch-User': '?1',
+                'Upgrade-Insecure-Requests': '1',
+            }},
+            # Approach 3: Simple user agent
+            {'http_headers': {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+            }},
+        ]
+    else:
+        # For local development, try cookie-based approaches
+        approaches = [
+            # Approach 1: Try with browser cookies
+            {'cookiesfrombrowser': ('chrome',)},
+            # Approach 2: Try with Firefox cookies
+            {'cookiesfrombrowser': ('firefox',)},
+            # Approach 3: Try without cookies but with enhanced headers
+            {'http_headers': {
+                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+                'Accept-Language': 'en-US,en;q=0.9',
+                'Accept-Encoding': 'gzip, deflate, br',
+                'Sec-Ch-Ua': '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
+                'Sec-Ch-Ua-Mobile': '?0',
+                'Sec-Ch-Ua-Platform': '"macOS"',
+                'Sec-Fetch-Dest': 'document',
+                'Sec-Fetch-Mode': 'navigate',
+                'Sec-Fetch-Site': 'none',
+                'Sec-Fetch-User': '?1',
+                'Upgrade-Insecure-Requests': '1',
+            }},
+            # Approach 4: Try with mobile user agent
+            {'http_headers': {
+                'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Mobile/15E148 Safari/604.1',
+            }},
+        ]
 
     for i, approach in enumerate(approaches):
         try:
@@ -118,53 +154,15 @@ def download_youtube_subtitles(video_url, language='en', output_dir='subtitles')
                 # For other errors, try the next approach but log the error
                 continue
     
-    # If all yt-dlp approaches failed, try YouTube Transcript API fallback
-    print("All yt-dlp approaches failed, trying YouTube Transcript API fallback...")
+    # If all approaches failed, try a very basic approach
+    print("All approaches failed, trying basic approach...")
     try:
-        from youtube_transcript_fallback import YouTubeTranscriptFallback
-        
-        fallback = YouTubeTranscriptFallback()
-        srt_path = fallback.download_subtitles_fallback(video_url, output_dir, language)
-        
-        if srt_path:
-            print(f"YouTube Transcript API fallback succeeded: {srt_path}")
-            return
-        else:
-            print("YouTube Transcript API fallback also failed")
-            
-    except ImportError:
-        print("YouTube Transcript API fallback not available (youtube_transcript_fallback.py not found)")
-    except Exception as fallback_error:
-        print(f"YouTube Transcript API fallback error: {fallback_error}")
-    
-    # If YouTube Transcript API also failed, try the Data API fallback
-    print("Trying YouTube Data API fallback...")
-    try:
-        from youtube_api_fallback import YouTubeAPIFallback
-        
-        fallback = YouTubeAPIFallback()
-        srt_path = fallback.download_subtitles_fallback(video_url, output_dir)
-        
-        if srt_path:
-            print(f"YouTube Data API fallback succeeded: {srt_path}")
-            return
-        else:
-            print("YouTube Data API fallback also failed")
-            
-    except ImportError:
-        print("YouTube Data API fallback not available (youtube_api_fallback.py not found)")
-    except Exception as fallback_error:
-        print(f"YouTube Data API fallback error: {fallback_error}")
-    
-    # Final fallback: try with minimal options
-    print("Trying final fallback with minimal options...")
-    try:
-        fallback_opts = {
+        basic_opts = {
             'writeautomaticsub': True,
             'writesubtitles': True,
             'subtitleslangs': [language],
             'skip_download': True,
-            'outtmpl': os.path.join(output_dir, f'{video_id}-%(title)s.%(ext)s'),
+            'outtmpl': os.path.join(output_dir, f'{video_id}.%(ext)s'),
             'subtitlesformat': 'srt',
             'ignoreerrors': True,
             'quiet': True,
@@ -172,11 +170,14 @@ def download_youtube_subtitles(video_url, language='en', output_dir='subtitles')
             'extractor_retries': 5,
             'fragment_retries': 5,
             'retries': 5,
+            'http_headers': {
+                'User-Agent': 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+            }
         }
         
-        with yt_dlp.YoutubeDL(fallback_opts) as ydl:
+        with yt_dlp.YoutubeDL(basic_opts) as ydl:
             ydl.download([video_url])
-            print("Final fallback method succeeded")
+            print("Basic approach succeeded")
             
     except Exception as final_error:
         print(f"All methods failed. Final error: {final_error}")

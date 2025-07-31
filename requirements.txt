@@ -11,5 +11,3 @@ yt-dlp
 uvicorn
 fastapi
 loguru
-requests
-youtube-transcript-api
